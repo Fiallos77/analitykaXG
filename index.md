@@ -13,9 +13,9 @@ Here you can find all my football data analyses — tactical insights, heatmaps,
 {% for post in site.posts %}
   <li style="margin-bottom: 20px;">
     {% if post.image %}
-      <img src="{{ post.image }}" alt="{{ post.title }}" style="width:150px; float:left; margin-right:10px; border-radius:5px;">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:150px; float:left; margin-right:10px; border-radius:5px;">
     {% endif %}
-    <a href="{{ post.url }}" style="font-size: 18px; font-weight: bold;">{{ post.title }}</a><br>
+    <a href="{{ post.url | relative_url }}" style="font-size: 18px; font-weight: bold;">{{ post.title }}</a><br>
     <small>{{ post.date | date: "%B %d, %Y" }}</small>
     <div style="clear: both;"></div>
   </li>
