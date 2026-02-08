@@ -5,12 +5,17 @@ date: 2026-02-08
 image: /assets/Ecuador1.jpg
 ---
 
-This is my first football data analysis post.
+## Match Overview
 
-Here I will explain:
-- The context of the match
-- Key tactical patterns
-- Data insights (xG, heatmaps, passing networks)
+Ecuador managed to neutralize Argentina's attack using a high pressing strategy. In this analysis, we focus on:
 
-- ### Heatmap Example
+- Tactical heatmaps
+- xG metrics
+- Key passing networks
+
 ![Heatmap Ecuador vs Argentina]({{ "/assets/Ecuador1.jpg" | relative_url }})
+
+
+---
+
+All data visualizations were created using Python
