@@ -4,7 +4,6 @@ title: "Ecuador vs Argentina: Tactical & Data Analysis"
 date: 2026-02-08
 image: /assets/Ecuador1.jpg
 ---
-[⬅ Back to Home]({{ "/" | relative_url }})
 
 <div class="post-content" style="max-width:800px; margin:auto; padding:20px; background-color:#f9f9f9; border-radius:10px;">
   
