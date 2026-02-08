@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Ecuador vs Argentina: Tactical & Data Analysis"
+date: 2026-02-09
+image: /assets/heatmap1.png
 ---
 
 ### Match Context
