@@ -4,6 +4,7 @@ title: "Ecuador vs Argentina: Tactical & Data Analysis"
 date: 2026-02-08
 image: /assets/Ecuador1.jpg
 ---
+[⬅ Back to Home]({{ "/" | relative_url }})
 
 ## Match Overview
 
