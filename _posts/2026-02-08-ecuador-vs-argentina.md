@@ -13,7 +13,7 @@ Ecuador managed to neutralize Argentina's attack using a high pressing strategy.
 - xG metrics
 - Key passing networks
 
-![Heatmap Ecuador vs Argentina]({{ "/assets/heatmap1.png" | relative_url }}{: style="width:600px; display:block; margin:auto; border-radius:10px;" })
+<img src="{{ '/assets/Ecuador1.jpg' | relative_url }}" alt="Heatmap Ecuador vs Argentina" style="width:600px; display:block; margin:auto; border-radius:10px;">
 
 ### Tactical Insights
 - High pressing in the first 30 mins
