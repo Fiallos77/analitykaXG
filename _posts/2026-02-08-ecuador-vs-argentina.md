@@ -2,7 +2,7 @@
 layout: post
 title: "Ecuador vs Argentina: Tactical & Data Analysis"
 date: 2026-02-08
-image: /assets/heatmap1.png
+image: /assets/Ecuador1.jpg
 ---
 
 This is my first football data analysis post.
