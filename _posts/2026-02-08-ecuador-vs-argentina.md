@@ -13,4 +13,4 @@ Here I will explain:
 - Data insights (xG, heatmaps, passing networks)
 
 - ### Heatmap Example
-![Heatmap Ecuador vs Argentina]({{ "/assets/heatmap1.png" | relative_url }})
+![Heatmap Ecuador vs Argentina]({{ "/assets/Ecuador1.jpg" | relative_url }})
