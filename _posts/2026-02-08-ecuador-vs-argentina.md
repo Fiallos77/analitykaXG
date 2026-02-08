@@ -22,5 +22,4 @@ Ecuador managed to neutralize Argentina's attack using a high pressing strategy.
 
 ---
 
-[⬅ Back to Home]({{ "/" | relative_url }})
 
