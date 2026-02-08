@@ -13,13 +13,18 @@ Ecuador managed to neutralize Argentina's attack using a high pressing strategy.
 - xG metrics
 - Key passing networks
 
-![Heatmap Ecuador vs Argentina]({{ "/assets/Ecuador1.jpg" | relative_url }}{: style="width:600px; display:block; margin:auto; border-radius:10px;" })
+![Heatmap Ecuador vs Argentina]({{ "/assets/heatmap1.png" | relative_url }}{: style="width:600px; display:block; margin:auto; border-radius:10px;" })
 
-### Links to Related Analyses
+### Tactical Insights
+- High pressing in the first 30 mins
+- Compact midfield
 
+### xG Analysis
+- Ecuador xG: 1.2
+- Argentina xG: 2.5
+
+### More Analyses
 - [Brasil vs Uruguay Analysis]({{ "/2026/02/09-brasil-vs-uruguay.html" | relative_url }})
 - [Colombia vs Chile]({{ "/2026/02/10-colombia-vs-chile.html" | relative_url }})
 
 ---
-
-
