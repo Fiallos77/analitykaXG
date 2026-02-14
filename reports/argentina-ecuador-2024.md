@@ -10,6 +10,7 @@ title: Argentina vs Ecuador – Spatial Threat Report
 
 <div class="report-section">
   <h2>Executive Summary</h2>
+
   <div class="summary-box">
     <p>
       Ecuador generated a higher volume of danger passes (16 vs 12),
@@ -19,25 +20,35 @@ title: Argentina vs Ecuador – Spatial Threat Report
   </div>
 </div>
 
-<div class="report-section">
-  <h2>Spatial Distribution</h2>
+<div class="visual-block">
+  <div class="report-section">
+    <h2>Spatial Distribution</h2>
 
-  <div class="report-figure">
-    <img src="{{ site.baseurl }}/assets/images/Ecuador1.jpg" alt="Ecuador Threat Map">
-    <p style="color:#6B7480; font-size:14px; margin-top:12px;">
-      Figure 1 — Ecuador danger pass distribution (15-second threat window).
-    </p>
+    <div class="report-figure">
+      <img src="{{ site.baseurl }}/assets/images/Ecuador1.jpg" alt="Ecuador Threat Map">
+      <p class="caption">
+        Figure 1 — Ecuador danger pass distribution (15-second threat window).
+      </p>
+    </div>
+
+    <div class="report-figure">
+      <img src="{{ site.baseurl }}/assets/images/Argentina1.jpg" alt="Argentina Threat Map">
+      <p class="caption">
+        Figure 2 — Argentina danger pass distribution (15-second threat window).
+      </p>
+    </div>
   </div>
-
-  <div class="report-figure">
-    <img src="{{ site.baseurl }}/assets/images/Argentina1.jpg" alt="Argentina Threat Map">
-    <p style="color:#6B7480; font-size:14px; margin-top:12px;">
-      Figure 2 — Argentina danger pass distribution (15-second threat window).
-    </p>
-  </div>
-
 </div>
 
 <div class="report-highlight">
-  Volume does not equate to spatial efficiency.
+  Territorial volume without central consolidation limits structural efficiency.
+</div>
+
+<div class="report-section">
+  <h2>Methodology</h2>
+  <p>
+    Danger passes defined as passes occurring within 15 seconds preceding
+    progressive advantage events. Zonal pitch divided into structured grid
+    model using StatsBomb event data.
+  </p>
 </div>
