@@ -105,3 +105,53 @@ body {
 .cta-button:hover {
   background: #9E0E19;
 }
+
+.report-main {
+  padding: 100px 0;
+}
+
+.report-hero {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.report-hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.report-hero p {
+  color: #9AA4B2;
+}
+
+.report-section {
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+.report-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-left: 4px solid #C1121F;
+  padding-left: 12px;
+}
+
+.report-figure {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.report-figure img {
+  width: 100%;
+  max-width: 950px;
+  border-radius: 4px;
+}
+
+.report-highlight {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 120px 0;
+}
