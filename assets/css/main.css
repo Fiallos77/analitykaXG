@@ -38,19 +38,20 @@ body {
 }
 
 .hero-home {
-  padding: 120px 0 80px;
+  padding: 160px 0 140px;
+  max-width: 900px;
 }
 
 .hero-home h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 52px;
-  margin: 0;
+  font-size: 72px;
+  letter-spacing: 4px;
+  font-weight: 800;
 }
 
 .hero-home p {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #9AA4B2;
+  font-size: 20px;
+  max-width: 700px;
+  margin-top: 25px;
 }
 
 .section {
@@ -88,16 +89,19 @@ body {
   font-size: 14px;
   color: #6B7480;
 }
+
 .cta-button {
+  display: inline-block;
+  margin-top: 30px;
   background: #C1121F;
-  color: white;
-  padding: 14px 28px;
-  text-decoration: none;
+  color: #ffffff !important;
+  padding: 16px 32px;
+  text-decoration: none !important;
   font-weight: 600;
-  border-radius: 4px;
+  border-radius: 3px;
   transition: 0.3s ease;
 }
 
 .cta-button:hover {
-  background: #A80E1A;
+  background: #9E0E19;
 }
