@@ -5,26 +5,48 @@ date: 2026-02-08
 image: /assets/Ecuador1.jpg
 ---
 
-## Match Overview
+<div class="hero-report">
+  <h1>ARGENTINA vs ECUADOR</h1>
+  <h2>Spatial Threat Distribution Report</h2>
 
-Ecuador managed to neutralize Argentina's attack using a high pressing strategy. In this analysis, we focus on:
+  <div class="meta-grid">
+    <div><strong>Competition</strong><br>Copa América 2024</div>
+    <div><strong>Danger Passes</strong><br>16 vs 12</div>
+    <div><strong>Model</strong><br>15s Threat Window</div>
+    <div><strong>Data</strong><br>StatsBomb</div>
+  </div>
+</div>
 
-- Tactical heatmaps
-- xG metrics
-- Key passing networks
+<div class="executive-box">
+<h3>Executive Summary</h3>
+<p>
+Ecuador generated a higher volume of danger passes (16 vs 12)...
+The spatial pattern indicates vertical width emphasis rather than central control.
+</p>
+</div>
 
-<img src="{{ site.baseurl }}/assets/Ecuador1.jpg" alt="Heatmap Ecuador vs Argentina" style="width:600px; display:block; margin:auto; border-radius:10px;">
+<div class="figure-title">FIGURE 1 — Ecuador Threat Distribution</div>
 
-### Tactical Insights
-- High pressing in the first 30 mins
-- Compact midfield
+![Ecuador Heatmap](/assets/images/Ecuador1.jpg)
 
-### xG Analysis
-- Ecuador xG: 1.2
-- Argentina xG: 2.5
+<div class="figure-caption">
+Zone intensity represents danger passes within 15 seconds post-possession.
+</div>
 
-### More Analyses
-- [Brasil vs Uruguay Analysis]({{ "/2026/02/09-brasil-vs-uruguay.html" | relative_url }})
-- [Colombia vs Chile]({{ "/2026/02/10-colombia-vs-chile.html" | relative_url }})
+<p>
+Professional interpretation here. Not describing pixels. Interpreting structure.
+</p>
 
----
+<div class="figure-title">FIGURE 2 — Argentina Threat Distribution</div>
+
+![Argentina Heatmap](/assets/images/Ecuador1.jpg)
+
+<div class="key-insight">
+Volume does not equate to spatial efficiency.
+</div>
+
+<h3>Methodology</h3>
+
+Danger passes defined as passes occurring within 15 seconds of progressive advantage events.
+Zonal segmentation: 24-grid pitch model.
+Data source: StatsBomb event dataset.
