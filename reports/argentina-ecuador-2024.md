@@ -5,7 +5,21 @@ title: Argentina vs Ecuador – Spatial Threat Report
 
 <div class="report-hero">
   <h1>Argentina vs Ecuador</h1>
-  <p>Copa América 2024 | 15s Threat Window Model™</p>
+  <p>Copa América 2024</p>
+<div class="report-meta">
+    <div>
+      <span>Danger Passes</span>
+      <strong>16 vs 12</strong>
+    </div>
+    <div>
+      <span>Model</span>
+      <strong>15s Threat Window™</strong>
+    </div>
+    <div>
+      <span>Data Source</span>
+      <strong>StatsBomb</strong>
+    </div>
+  </div>
 </div>
 
 <div class="report-section">
