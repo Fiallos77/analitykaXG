@@ -20,11 +20,11 @@ title: Argentina vs Ecuador – Spatial Threat Report
   <h2>Spatial Distribution</h2>
 
   <div class="report-figure">
-    <img src="{{ site.baseurl }}/assets/Ecuador1.jpg">
+    <img src="{{ site.baseurl }}/assets/images/Ecuador1.jpg">
   </div>
 
   <div class="report-figure">
-    <img src="{{ site.baseurl }}/assets/Argentina1.jpg">
+    <img src="{{ site.baseurl }}/assets/images/Argentina1.jpg">
   </div>
 </div>
 
