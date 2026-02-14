@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | AnalitykaXG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <div class="logo">
+      <a href="{{ site.baseurl }}/">ANALITYKAXG</a>
+    </div>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </nav>
+  </div>
+</header>
+
+{{ content }}
+
+<footer class="footer">
+  <div class="container">
+    © {{ site.time | date: "%Y" }} AnalitykaXG – Data Performance Analysis
+  </div>
+</footer>
+
+</body>
+</html>
