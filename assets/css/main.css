@@ -162,3 +162,9 @@ body {
   border-left: 6px solid #C1121F;
   margin-top: 30px;
 }
+
+.visual-block {
+  background: #10151C;
+  padding: 80px 0;
+  margin-top: 80px;
+}
