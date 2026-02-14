@@ -10,11 +10,13 @@ title: Argentina vs Ecuador – Spatial Threat Report
 
 <div class="report-section">
   <h2>Executive Summary</h2>
-  <p>
-    Ecuador generated a higher volume of danger passes (16 vs 12),
-    concentrated in advanced half-spaces. Argentina's structure showed
-    deeper left progression but limited central occupation.
-  </p>
+  <div class="summary-box">
+    <p>
+      Ecuador generated a higher volume of danger passes (16 vs 12),
+      concentrated in advanced half-spaces. Argentina’s structure showed
+      deeper left progression but limited central occupation.
+    </p>
+  </div>
 </div>
 
 <div class="report-section">
