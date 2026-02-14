@@ -88,3 +88,16 @@ body {
   font-size: 14px;
   color: #6B7480;
 }
+.cta-button {
+  background: #C1121F;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #A80E1A;
+}
