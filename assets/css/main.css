@@ -155,3 +155,10 @@ body {
   font-weight: 600;
   margin: 120px 0;
 }
+
+.summary-box {
+  background: #111823;
+  padding: 40px;
+  border-left: 6px solid #C1121F;
+  margin-top: 30px;
+}
