@@ -205,3 +205,28 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ===== Report Meta (Top Stats) ===== */
+
+.report-meta {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.report-meta div {
+  text-align: center;
+}
+
+.report-meta span {
+  display: block;
+  color: #6B7480;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.report-meta strong {
+  font-size: 18px;
+}
