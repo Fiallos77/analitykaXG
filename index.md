@@ -1,28 +1,34 @@
 ---
 layout: default
-title: AnalitykaXG
+title: Home
 ---
 
-# Welcome to AnalitykaXG
+<div class="hero-home container">
+  <h1>ANALITYKAXG</h1>
+  <p>
+    Data-driven football intelligence focused on spatial control,
+    threat modeling and tactical structure.
+  </p>
+</div>
 
-Here you can find all my football data analyses — tactical insights, heatmaps, xG metrics, and passing networks.
+<div class="section container">
+  <h2>Latest Report</h2>
 
----
+  <div class="report-card">
+    <a href="{{ site.baseurl }}/argentina-ecuador-threat-report">
+      Argentina vs Ecuador – Spatial Threat Distribution
+    </a>
+    <p style="color: #9AA4B2; margin-top:10px;">
+      Copa América 2024 | 15s Threat Window Model™
+    </p>
+  </div>
+</div>
 
-<ul>
-{% for post in site.posts %}
-  <li style="margin-bottom: 20px;">
-    {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:150px; float:left; margin-right:10px; border-radius:5px;">
-    {% endif %}
-    <a href="{{ post.url | relative_url }}" style="font-size: 18px; font-weight: bold;">{{ post.title }}</a><br>
-    <small>{{ post.date | date: "%B %d, %Y" }}</small>
-    <div style="clear: both;"></div>
-  </li>
-{% endfor %}
-</ul>
-
----
-
-### About this site
-AnalitykaXG is my personal football data analysis portfolio. Here I explore tactical patterns, player statistics, and team performance using heatmaps, xG metrics, and passing networks. All posts are generated from my own analysis and Python/Power BI visualizations.
+<div class="section container">
+  <h2>About</h2>
+  <p>
+    Performance-focused football data analysis platform built to transform
+    event data into spatial and tactical insight. All models and visualisations
+    are internally developed using StatsBomb event data.
+  </p>
+</div>
