@@ -1,5 +1,5 @@
 title: AnalitykaXG
 baseurl: "/analitykaXG"
 description: Football data analysis & tactical insights
-theme: jekyll-theme-cayman
+markdown: kramdown
 
