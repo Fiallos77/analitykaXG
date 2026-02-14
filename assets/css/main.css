@@ -1,9 +1,11 @@
+/* ===== GLOBAL BASE ===== */
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #0B0F14;
   color: #E6EDF3;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .container {
@@ -11,6 +13,8 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
+/* ===== NAVBAR ===== */
 
 .navbar {
   padding: 25px 0;
@@ -37,62 +41,33 @@ body {
   color: #FFFFFF;
 }
 
+/* ===== HOME HERO ===== */
+
 .hero-home {
   padding: 160px 0 140px;
   max-width: 900px;
 }
 
 .hero-home h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 72px;
   letter-spacing: 4px;
   font-weight: 800;
+  margin: 0;
 }
 
 .hero-home p {
   font-size: 20px;
   max-width: 700px;
   margin-top: 25px;
+  color: #9AA4B2;
 }
 
-.section {
-  padding: 80px 0;
-}
-
-.section h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  margin-bottom: 40px;
-}
-
-.report-card {
-  background: #111823;
-  padding: 25px;
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-.report-card:hover {
-  background: #17202C;
-}
-
-.report-card a {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-}
-
-.footer {
-  border-top: 1px solid #1E2630;
-  padding: 40px 0;
-  margin-top: 100px;
-  font-size: 14px;
-  color: #6B7480;
-}
+/* ===== CTA BUTTON ===== */
 
 .cta-button {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 35px;
   background: #C1121F;
   color: #ffffff !important;
   padding: 16px 32px;
@@ -106,40 +81,104 @@ body {
   background: #9E0E19;
 }
 
+/* ===== SECTIONS ===== */
+
+.section {
+  padding: 120px 0;
+}
+
+.section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* ===== REPORT CARDS ===== */
+
+.report-card {
+  background: #111823;
+  padding: 35px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.report-card:hover {
+  background: #17202C;
+}
+
+.report-card a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  border-top: 1px solid #1E2630;
+  padding: 50px 0;
+  margin-top: 150px;
+  font-size: 14px;
+  color: #6B7480;
+  text-align: center;
+}
+
+/* ===================================================== */
+/* ================= REPORT STYLE ====================== */
+/* ===================================================== */
+
 .report-main {
-  padding: 100px 0;
+  padding: 140px 0;
 }
 
 .report-hero {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .report-hero h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 64px;
   margin-bottom: 15px;
 }
 
 .report-hero p {
   color: #9AA4B2;
+  font-size: 18px;
 }
 
 .report-section {
   max-width: 900px;
-  margin: 100px auto;
+  margin: 120px auto;
 }
 
 .report-section h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  margin-bottom: 25px;
-  border-left: 4px solid #C1121F;
-  padding-left: 12px;
+  font-size: 30px;
+  margin-bottom: 35px;
+  border-left: 5px solid #C1121F;
+  padding-left: 14px;
+}
+
+/* ===== Executive Box ===== */
+
+.summary-box {
+  background: #111823;
+  padding: 50px;
+  border-left: 6px solid #C1121F;
+  font-size: 18px;
+}
+
+/* ===== Visual Block ===== */
+
+.visual-block {
+  background: #10151C;
+  padding: 150px 0;
 }
 
 .report-figure {
-  margin: 60px 0;
+  margin: 100px 0;
   text-align: center;
 }
 
@@ -149,22 +188,20 @@ body {
   border-radius: 4px;
 }
 
+.caption {
+  font-size: 14px;
+  color: #6B7480;
+  margin-top: 18px;
+}
+
+/* ===== Highlight Statement ===== */
+
 .report-highlight {
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
-  margin: 120px 0;
-}
-
-.summary-box {
-  background: #111823;
-  padding: 40px;
-  border-left: 6px solid #C1121F;
-  margin-top: 30px;
-}
-
-.visual-block {
-  background: #10151C;
-  padding: 80px 0;
-  margin-top: 80px;
+  margin: 180px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
