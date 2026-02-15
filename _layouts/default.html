@@ -1,33 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | AnalitykaXG</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite football performance analysis - Tactical intelligence through data">
+    <title>{{ page.title }} | analitykaXG</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0B1120;
+            --bg-secondary: #141B2E;
+            --bg-card: #1A2332;
+            --accent-cyan: #00E5FF;
+            --accent-green: #00FF88;
+            --accent-red: #FF4A6B;
+            --text-primary: #F0F4F8;
+            --text-secondary: #7C8BA1;
+            --border-color: rgba(0, 229, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background Pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0, 229, 255, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 255, 136, 0.02) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ============ HEADER / NAVBAR ============ */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(11, 17, 32, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-image {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--text-primary);
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+        }
+
+        .logo-text .highlight {
+            color: var(--accent-cyan);
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-cyan);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* ============ LANGUAGE SWITCHER ============ */
+        .language-switcher {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+
+        .lang-option {
+            padding: 6px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .lang-option:hover {
+            color: var(--text-primary);
+            background: rgba(0, 229, 255, 0.1);
+        }
+
+        .lang-option.active {
+            color: var(--bg-primary);
+            background: var(--accent-cyan);
+        }
+
+        .lang-separator {
+            color: var(--border-color);
+            font-size: 12px;
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: 2px solid var(--border-color);
+            color: var(--accent-cyan);
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        /* ============ MAIN CONTENT ============ */
+        main {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ============ FOOTER ============ */
+        footer {
+            padding: 60px 0 40px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            margin-bottom: 32px;
+        }
+
+        .footer-logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .footer-logo .highlight {
+            color: var(--accent-cyan);
+        }
+
+        .footer-tagline {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+
+        .social-links a {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 18px;
+        }
+
+        .social-links a:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 229, 255, 0.2);
+        }
+
+        .footer-copy {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        /* ============ RESPONSIVE ============ */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .nav-right {
+                gap: 16px;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .logo-text {
+                font-size: 20px;
+            }
+
+            .logo-image {
+                width: 40px;
+                height: 40px;
+            }
+
+            header {
+                padding: 16px 0;
+            }
+
+            .language-switcher {
+                padding: 6px 8px;
+            }
+
+            .lang-option {
+                padding: 4px 8px;
+                font-size: 12px;
+            }
+        }
+    </style>
 </head>
-
 <body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="{{ site.baseurl }}/" class="logo-container">
+                    <img src="{{ site.baseurl }}/assets/images/logo.png" alt="analitykaXG Logo" class="logo-image">
+                    <div class="logo-text">
+                        ANALITYKA<span class="highlight">XG</span>
+                    </div>
+                </a>
+                
+                <div class="nav-right">
+                    <ul class="nav-links">
+                        {% if page.lang == 'es' %}
+                            <li><a href="{{ site.baseurl }}/es#reports">Análisis</a></li>
+                            <li><a href="{{ site.baseurl }}/es#methodology">Metodología</a></li>
+                            <li><a href="{{ site.baseurl }}/es#about">Acerca de</a></li>
+                            <li><a href="mailto:contact@analitykaxg.com">Contacto</a></li>
+                        {% else %}
+                            <li><a href="{{ site.baseurl }}/#reports">Analysis</a></li>
+                            <li><a href="{{ site.baseurl }}/#methodology">Methodology</a></li>
+                            <li><a href="{{ site.baseurl }}/#about">About</a></li>
+                            <li><a href="mailto:contact@analitykaxg.com">Contact</a></li>
+                        {% endif %}
+                    </ul>
 
-<header class="navbar">
-  <div class="container">
-    <div class="logo">
-      <a href="{{ site.baseurl }}/">ANALITYKAXG</a>
-    </div>
-    <nav>
-      <a href="{{ site.baseurl }}/">Home</a>
-    </nav>
-  </div>
-</header>
+                    <!-- Language Switcher -->
+                    <div class="language-switcher">
+                        {% if page.lang == 'es' %}
+                            <a href="{{ site.baseurl }}{{ page.url | remove: '/es' }}" class="lang-option">EN</a>
+                            <span class="lang-separator">|</span>
+                            <span class="lang-option active">ES</span>
+                        {% else %}
+                            <span class="lang-option active">EN</span>
+                            <span class="lang-separator">|</span>
+                            <a href="{{ site.baseurl }}/es{{ page.url }}" class="lang-option">ES</a>
+                        {% endif %}
+                    </div>
 
-{{ content }}
+                    <button class="mobile-menu-toggle">☰</button>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-<footer class="footer">
-  <div class="container">
-    © {{ site.time | date: "%Y" }} AnalitykaXG – Data Performance Analysis
-  </div>
-</footer>
+    <!-- MAIN CONTENT -->
+    <main>
+        {{ content }}
+    </main>
 
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    ANALITYKA<span class="highlight">XG</span>
+                </div>
+                {% if page.lang == 'es' %}
+                    <p class="footer-tagline">Análisis de Rendimiento Futbolístico de Élite</p>
+                {% else %}
+                    <p class="footer-tagline">Elite Football Performance Analysis</p>
+                {% endif %}
+                
+                <div class="social-links">
+                    <a href="https://twitter.com/analitykaxg" target="_blank" aria-label="Twitter">𝕏</a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">in</a>
+                    <a href="https://github.com/fiallos77" target="_blank" aria-label="GitHub">⚡</a>
+                    <a href="https://youtube.com/@analitykaxg" target="_blank" aria-label="YouTube">▶</a>
+                </div>
+            </div>
+            
+            {% if page.lang == 'es' %}
+                <p class="footer-copy">
+                    © 2026 analitykaXG — Construido con Python & Datos de StatsBomb
+                </p>
+            {% else %}
+                <p class="footer-copy">
+                    © 2026 analitykaXG — Built with Python & StatsBomb Data
+                </p>
+            {% endif %}
+        </div>
+    </footer>
 </body>
 </html>
