@@ -8,15 +8,13 @@ lang: en
 <section class="hero-section">
     <div class="hero-content">
         <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Football Data Analyst" class="profile-photo">
-        
-        <div class="hero-text">
+         <div class="hero-text">
             <p class="subtitle">Football Data Analyst</p>
             <h1>Tactical Intelligence<br>Through Data</h1>
             <p class="tagline">
                 Elite-level tactical analysis based on <strong>advanced xG models</strong>, 
                 spatial dominance, and pressure structures. Transforming data into decisions for professional clubs.
             </p>
-            
             <div class="hero-cta">
                 <a href="#reports" class="cta-primary">
                     View Analysis
@@ -27,7 +25,6 @@ lang: en
                 </a>
             </div>
         </div>
-
         <div class="stats-bar">
             <div class="stat-item">
                 <span class="stat-number">25+</span>
@@ -51,10 +48,8 @@ lang: en
         <h2>Latest Analysis</h2>
         <p>Tactical reports based on proprietary expected goals models and spatial analysis</p>
     </div>
-
     <div class="reports-grid">
-        
-        <!-- Card 1: Celta Vigo - TU NUEVO REPORTE -->
+       <!-- Card 1: Celta Vigo - TU NUEVO REPORTE -->
         <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2425" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
@@ -77,7 +72,6 @@ lang: en
                 </span>
             </div>
         </a>
-
         <!-- Card 2: Argentina vs Ecuador -->
         <a href="{{ site.baseurl }}/reports/argentina-ecuador-2024" class="report-card">
             <div class="report-thumbnail">
@@ -101,7 +95,6 @@ lang: en
                 </span>
             </div>
         </a>
-
         <!-- Card 3: Coming Soon -->
         <a href="#" class="report-card">
             <div class="report-thumbnail">
@@ -122,8 +115,7 @@ lang: en
                 </span>
             </div>
         </a>
-
-    </div>
+     </div>
 </section>
 
 <!-- METHODOLOGY -->
