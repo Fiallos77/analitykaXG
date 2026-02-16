@@ -65,7 +65,7 @@ lang: es
                 <div class="report-meta">
                     <span>Premier League 24/25</span>
                     <span>•</span>
-                    <span>Feb 2025</span>
+                    <span>Jan 2026</span>
                 </div>
                 <p class="report-excerpt">
                     Análisis de mapa de tiros mostrando 1.61 xG en 7 tiros con 124% de conversión. 
