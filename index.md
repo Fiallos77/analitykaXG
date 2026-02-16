@@ -50,7 +50,7 @@ lang: en
     </div>
     <div class="reports-grid">
        <!-- Card 1: Celta Vigo - TU NUEVO REPORTE -->
-        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2425" class="report-card">
+        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
             </div>
@@ -60,7 +60,7 @@ lang: en
                 <div class="report-meta">
                     <span>Premier League 24/25</span>
                     <span>•</span>
-                    <span>Feb 2025</span>
+                    <span>Jan 2026</span>
                 </div>
                 <p class="report-excerpt">
                     Shot map analysis showing 1.61 xG from 7 shots with 124% conversion rate. 
