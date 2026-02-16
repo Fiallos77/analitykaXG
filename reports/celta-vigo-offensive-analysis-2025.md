@@ -4,7 +4,7 @@ title: Celta Vigo - Offensive Analysis
 description: Shot map analysis and finishing efficiency Premier League 24/25
 category: Team Analysis
 competition: Premier League 24/25
-date: 2025-02-09
+date: 2026-01-11
 lang: en
 ---
 
