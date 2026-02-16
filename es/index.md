@@ -55,7 +55,7 @@ lang: es
     <div class="reports-grid">
         
         <!-- Card 1: Celta Vigo - VERSIÓN ESPAÑOL -->
-        <a href="{{ site.baseurl }}/es/reports/celta-vigo-offensive-analysis-2425" class="report-card">
+        <a href="{{ site.baseurl }}/es/reports/celta-vigo-offensive-analysis-2025" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Mapa de Tiros Celta Vigo">
             </div>
