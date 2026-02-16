@@ -43,13 +43,15 @@
                 <!-- Language Switcher -->
                 <div class="language-switcher">
                     {% if page.lang == 'es' %}
-                        <a href="{{ site.baseurl }}{{ page.url | remove: '/es' }}" class="lang-option">EN</a>
+                        {% assign en_url = page.url | remove: '/es' %}
+                        <a href="{{ site.baseurl }}{{ en_url }}" class="lang-option">EN</a>
                         <span class="lang-separator">|</span>
                         <span class="lang-option active">ES</span>
                     {% else %}
                         <span class="lang-option active">EN</span>
                         <span class="lang-separator">|</span>
-                        <a href="{{ site.baseurl }}/es{{ page.url }}" class="lang-option">ES</a>
+                        {% assign es_url = '/es' | append: page.url %}
+                        <a href="{{ site.baseurl }}{{ es_url }}" class="lang-option">ES</a>
                     {% endif %}
                 </div>
             </nav>
@@ -67,19 +69,13 @@
             {% if page.lang == 'es' %}
                 <h3>¿Necesitas análisis customizado?</h3>
                 <p>Análisis táctico para clubes profesionales y agencias</p>
-                <a href="mailto:analitykaxg@gmail.com" class="cta-button">
+                <a href="/cdn-cgi/l/email-protection#a8c9c6c9c4c1dcd1c3c9d0cfe8cfc5c9c1c486cbc7c5" class="cta-button">
                     Contactar
                     <span>→</span>
                 </a>
             {% else %}
                 <h3>Need custom analysis?</h3>
                 <p>Tactical analysis for professional clubs and agencies</p>
-                <a href="mailto:analitykaxg@gmail.com" class="cta-button">
+                <a href="/cdn-cgi/l/email-protection#05646b64696c717c6e647d62456268646c692b666a68" class="cta-button">
                     Contact
                     <span>→</span>
-                </a>
-            {% endif %}
-        </div>
-    </div>
-</body>
-</html>
