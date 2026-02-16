@@ -7,7 +7,7 @@ lang: es
 <!-- HERO SECTION -->
 <section class="hero-section">
     <div class="hero-content">
-        <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Football Data Analyst" class="profile-photo">
+        <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Analista de Datos Futbolísticos" class="profile-photo">
         
         <div class="hero-text">
             <p class="subtitle">Analista de Datos Futbolísticos</p>
@@ -53,6 +53,32 @@ lang: es
     </div>
 
     <div class="reports-grid">
+        
+        <!-- Card 1: Celta Vigo - VERSIÓN ESPAÑOL -->
+        <a href="{{ site.baseurl }}/es/reports/celta-vigo-offensive-analysis-2425" class="report-card">
+            <div class="report-thumbnail">
+                <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Mapa de Tiros Celta Vigo">
+            </div>
+            <div class="report-content">
+                <span class="report-tag">Análisis de Equipo</span>
+                <h3>Celta Vigo - Análisis Ofensivo</h3>
+                <div class="report-meta">
+                    <span>Premier League 24/25</span>
+                    <span>•</span>
+                    <span>Feb 2025</span>
+                </div>
+                <p class="report-excerpt">
+                    Análisis de mapa de tiros mostrando 1.61 xG en 7 tiros con 124% de conversión. 
+                    Progresión central y finalización clínica.
+                </p>
+                <span class="report-link">
+                    Leer análisis completo
+                    <span>→</span>
+                </span>
+            </div>
+        </a>
+
+        <!-- Card 2: Argentina vs Ecuador -->
         <a href="{{ site.baseurl }}/es/reports/argentina-ecuador-2024" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">📊</div>
@@ -76,6 +102,7 @@ lang: es
             </div>
         </a>
 
+        <!-- Card 3: Próximamente -->
         <a href="#" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
@@ -96,25 +123,6 @@ lang: es
             </div>
         </a>
 
-        <a href="#" class="report-card">
-            <div class="report-thumbnail">
-                <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">🎯</div>
-            </div>
-            <div class="report-content">
-                <span class="report-tag">Estudio Táctico</span>
-                <h3>Próximamente</h3>
-                <div class="report-meta">
-                    <span>Análisis Táctico</span>
-                </div>
-                <p class="report-excerpt">
-                    Análisis de estructuras de presión y generación de xG en transiciones.
-                </p>
-                <span class="report-link">
-                    Próximamente
-                    <span>→</span>
-                </span>
-            </div>
-        </a>
     </div>
 </section>
 
