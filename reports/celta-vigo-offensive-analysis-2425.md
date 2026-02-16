@@ -136,7 +136,7 @@ lang: en
         </p>
 		</div>
 	</div>
-<!-- ==================== METADATA ==================== -->
+	<!-- ==================== METADATA ==================== -->
 	<div class="report-metadata">
 		<div class="metadata-row">
 			<div class="metadata-item">
