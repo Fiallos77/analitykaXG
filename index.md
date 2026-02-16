@@ -72,7 +72,7 @@ lang: en
                 </span>
             </div>
         </a>
-        <!-- Card 2: Argentina vs Ecuador -->
+        <!-- Card 2: Argentina vs Ecuador  -->
         <a href="{{ site.baseurl }}/reports/argentina-ecuador-2024" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">📊</div>
