@@ -76,6 +76,29 @@ lang: en
             </div>
         </a>
 
+        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2425" class="report-card">
+        <div class="report-thumbnail">
+            <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
+        </div>
+        <div class="report-content">
+            <span class="report-tag">Team Analysis</span>
+            <h3>Celta Vigo - Offensive Analysis</h3>
+        <div class="report-meta">
+            <span>Premier League 24/25</span>
+            <span>•</span>
+            <span>Feb 2025</span>
+        </div>
+        <p class="report-excerpt">
+            Shot map analysis showing 1.61 xG from 7 shots with 124% conversion rate. 
+            Central progression and clinical finishing breakdown.
+            </p>
+            <span class="report-link">
+                Read full analysis
+            <span>→</span>
+            </span>
+    </div>
+</a>
+
         <a href="#" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
