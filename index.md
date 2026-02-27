@@ -25,22 +25,23 @@ lang: en
                 </a>
             </div>
         </div>
-        <div class="stats-bar">
-            <div class="stat-item">
-                <span class="stat-number">25+</span>
-                <span class="stat-label">Reports</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">10</span>
-                <span class="stat-label">Leagues</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">Python</span>
-                <span class="stat-label">Tech Stack</span>
-            </div>
-        </div>
     </div>
 </section>
+<!-- STATS BAR -->
+<div class="stats-bar">
+    <div class="stat-item">
+        <span class="stat-number">25+</span>
+        <span class="stat-label">Reports</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">10</span>
+        <span class="stat-label">Leagues</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">Python</span>
+        <span class="stat-label">Tech Stack</span>
+    </div>
+</div>
 
 <!-- FEATURED REPORTS -->
 <section class="section" id="reports">
