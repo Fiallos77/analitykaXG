@@ -7,7 +7,7 @@ lang: en
 <!-- HERO SECTION -->
 <section class="hero-section" style="background-image: url('{{ site.baseurl }}/assets/images/profile.png'); background-size: cover; background-position: center; position: relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);z-index:0;"></div>
-    <div class="hero-content" style="position:relative;z-index:1;">
+    <div class="hero-content" style="position:relative;z-index:1;width:100%;text-align:center;">
          <div class="hero-text">
             <p class="subtitle">Football Data Analyst</p>
             <h1>Tactical Intelligence<br>Through Data</h1>
