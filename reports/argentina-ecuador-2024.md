@@ -162,7 +162,7 @@ lang: en
 
     <!-- Section 4: Tactical Patterns -->
     <div class="content-section">
-        <h2>Tactical Patterns Identified</h2>
+        <h2>🛠️ Methodology & Tools</h2>
         
         <h3>Argentina - Positional Control</h3>
         <p>
@@ -203,12 +203,11 @@ lang: en
         <h3>💡 Tactical Conclusion</h3>
         <p>
             Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
-            </br>
-            (1) Continue isolating Wirtz in half-spaces to trigger high-value shot assists.
-            </br>
-            (2) Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.
-            </br>
-            (3) Maintain the high-press intensity that led to Frimpong's central recoveries.
+            <ul>
+                <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.</li>
+                <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
+                <li>Maintain the high-press intensity that led to Frimpong's central recoveries.</li>
+            </ul>
         </p>
         <p style="margin-top: 16px;">
             <strong>Key Recommendation: Exploiting the space behind high-flying fullbacks through vertical transitions remains Leverkusen's most lethal weapon against top-tier pressing teams.
@@ -226,11 +225,11 @@ lang: en
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Model</span>
-            <span>Custom xG + 15s Threat Window</span>
+            <span>xG Flow model</span>
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Tools</span>
-            <span>Python, mplsoccer, pandas</span>
+            <span>Python, mplsoccer, pandas, statsbombpy</span>
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Analysis by</span>
