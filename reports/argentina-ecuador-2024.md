@@ -4,7 +4,7 @@ title: Bayer Leverkusen vs Bayern Munich - xG & Finishing Analysis
 description: Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models..
 category: Post-Match Analysis
 competition: Bundesliga 23/24
-date: 2024-07-04
+date: 2024-03-03
 lang: en
 ---
 <!-- REPORT HERO -->
@@ -206,7 +206,8 @@ lang: en
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:<br>
+            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
+            
             <ul>
                 <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.</li>
                 <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
@@ -235,7 +236,7 @@ lang: en
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Analysis by</span>
-            <span>analitykaXG</span>
+            <span>Carlos Fiallos</span>
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Published</span>
