@@ -139,57 +139,21 @@ lang: en
         </div>
     </div>
 
-    <!-- Section 4: Tactical Patterns -->
-    <div class="content-section">
-        <h2>🛠️ Methodology & Tools</h2>
-        
-        <h3>Argentina - Positional Control</h3>
-        <p>
-            La Albiceleste implemented an effective high-pressing scheme, recovering 12 balls 
-            in the opponent's half. Messi operated as a link between lines, generating 0.6 xA from 
-            attacking midfielder positions.
-        </p>
-        <p>
-            The defensive line maintained an average height of 52m, allowing quick pressure 
-            transitions when losing possession. De Paul and Mac Allister controlled the midfield 
-            with an 87% pass completion rate in progressive passes.
-        </p>
-        
-        <h3>Ecuador - Vertical Transitions</h3>
-        <p>
-            Ecuador opted for long direct outlets to Valencia, who won 8 of 14 aerial duels. 
-            However, lack of immediate support limited the generation of dangerous second plays.
-        </p>
-        <p>
-            In organized defense, Ecuador employed a medium block, allowing Argentina possession 
-            in non-dangerous zones but closing central passing lanes effectively.
-        </p>
-    </div>
-
-    <!-- Visualization 3: Pass Network (placeholder) -->
-    <div class="visualization">
-        <div style="width: 100%; height: 400px; background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 18px;">
-            [Argentina pass network visualization]
-        </div>
-        <p class="viz-caption">
-            <strong>Figure 3:</strong> Argentina's pass network. Messi acted as the central hub 
-            with 78 completed passes, 45% of them progressive.
-        </p>
-    </div>
-
     <!-- Conclusion -->
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Argentina demonstrated superiority in xG generation and spatial control. To neutralize 
-            this scheme, future opponents should: (1) avoid Argentina's high press with more elaborate 
-            build-up play, (2) close spaces between lines where Messi and De Paul operate, and 
-            (3) be more aggressive in transitions to exploit spaces left by the high defensive line.
+            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
         </p>
+        <ul class="key-insights">
+            <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.
+            </li>
+            <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
+            <li>Maintain the high-press intensity that led to Frimpong's central recoveries.
+            </li>
+        </ul>   
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation:</strong> Direct pressing on Rodríguez and Otamendi during build-up 
-            could disrupt Argentina's progression, forcing long balls that reduce their effectiveness 
-            in creating high xG opportunities.
+            <strong>Key Recommendation: Direct pressing on Rodríguez and Otamendi during build-up could disrupt Argentina's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.
         </p>
     </div>
 
