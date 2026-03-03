@@ -50,11 +50,27 @@ lang: en
 
     <!-- Visualization 1: Shot Map -->
     <div class="visualization">
-        <img src="{{ site.baseurl }}/assets/images/Argentina1.jpg" alt="Shot Map Argentina vs Ecuador">
+        <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
             <strong>Figure 1:</strong> Shot map with xG values. Argentina concentrated their shots 
             in high-value central zones (0.15+ xG), while Ecuador attempted from more distant positions.
         </p>
+    </div>
+
+        <!-- Section 2.1: Threat Windows -->
+    <div class="content-section">
+        <h3>Tactical Analysis: Shot Map & Efficiency</h3>
+        <p>
+            The shot map reveals a highly concentrated attacking pattern, with Leverkusen successfully penetrating the "Golden Zone" 
+            (central six-yard and penalty area). Key findings include:
+        </p>
+        <ul class="key-insights">
+            <li>Statistical Parity: The match concluded with a remarkably balanced expected goals (xG) profile, with Leverkusen reaching 1.52 xG against Bayern Munich's slight lead of                 ~1.72 xG, reflecting the 2-2 tactical stalemate on the pitch.
+            </li>
+            <li>High-Value Chance Creation: Leverkusen's offensive strategy prioritized quality over volume in the second half, identified by the "Big Chances" (glowing markers) created in the central finishing zone by Jeremie Frimpong and Jonathan Tah.</li>
+            <li>Dynamic Threat Profile: The xG Flow analysis reveals that Leverkusen maintained a consistent danger output, notably recovering from Bayern's early pressure to dominate the mid-game threat windows.
+            </li>
+        </ul>    
     </div>
 
     <!-- Section 2: xG Analysis -->
