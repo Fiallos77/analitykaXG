@@ -30,50 +30,48 @@ lang: en
         <li>Individual Impact: Jeremie Frimpong emerged as the primary offensive catalyst for Leverkusen, leading the team with 0.49 individual xG, followed closely by Florian Wirtz (0.45 xG), who orchestrated play in the final third.</li>
     </ul>
 </div>
-    <!-- Stats Comparison -->
-    <div class="stats-comparison">
-        <div class="team-stats">
-            <div class="team-name">BAYERN MUNICH</div>
-            <div class="stat-row">
-                <span class="stat-value">1.72</span>
-                <span class="stat-label">Total xG</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">16</span>
-                <span class="stat-label">Shots</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">10</span>
-                <span class="stat-label">In Box</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">10.5</span>
-                <span class="stat-label">PPDA</span>
-            </div>
+ <!-- Stats Comparison -->
+ <div class="stats-comparison">
+    <div class="team-stats">
+        <div class="team-name">BAYERN MUNICH</div>
+        <div class="stat-row">
+            <span class="stat-value">1.72</span>
+            <span class="stat-label">Total xG</span>
         </div>
-
-        <div class="divider"></div>
-
-        <div class="team-stats">
-            <div class="team-name">BAYER LEVERKUSEN</div>
-            <div class="stat-row">
-                <span class="stat-value">1.52</span>
-                <span class="stat-label">Total xG</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">13</span>
-                <span class="stat-label">Shots</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">9</span>
-                <span class="stat-label">In Box</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">12.2</span>
-                <span class="stat-label">PPDA</span>
-            </div>
+        <div class="stat-row">
+            <span class="stat-value">16</span>
+            <span class="stat-label">Shots</span>
+        </div>
+        <div class="stat-row">
+            <span class="stat-value">10</span>
+            <span class="stat-label">In Box</span>
+        </div>
+        <div class="stat-row">
+            <span class="stat-value">10.5</span>
+            <span class="stat-label">PPDA</span>
         </div>
     </div>
+     <div class="divider"></div>
+     <div class="team-stats">
+        <div class="team-name">BAYER LEVERKUSEN</div>
+        <div class="stat-row">
+            <span class="stat-value">1.52</span>
+            <span class="stat-label">Total xG</span>
+        </div>
+        <div class="stat-row">
+            <span class="stat-value">13</span>
+            <span class="stat-label">Shots</span>
+        </div>
+        <div class="stat-row">
+            <span class="stat-value">9</span>
+            <span class="stat-label">In Box</span>
+        </div>
+        <div class="stat-row">
+            <span class="stat-value">12.2</span>
+            <span class="stat-label">PPDA</span>
+        </div>
+    </div>
+</div>
 
 <!-- CONTENT SECTIONS -->
 <div class="report-content">
