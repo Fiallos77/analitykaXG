@@ -84,12 +84,9 @@ lang: en
 
     <!-- Section 2: xG Analysis -->
     <div class="content-section">
-        <h2>Expected Goals Analysis</h2>
+        <h2>Match Momentum & xG Evolution</h2>
         <p>
-            Argentina generated a total xG of 2.1, significantly higher than Ecuador's 0.8. 
-            The key difference lay in shot position quality: while La Albiceleste 
-            shot 8 times from inside the box with an average xG of 0.21, Ecuador only managed 3 shots 
-            in that zone with an average xG of 0.13.
+            The xG Flow chart illustrates the competitive tension of the match. While Bayern Munich established early dominance, Leverkusen’s resilience is evident in the steep climbs of their cumulative xG line during the middle and late stages of the game. The visualization confirms that Leverkusen didn't just survive the match; they actively challenged Bayern's defensive structure, achieving statistical parity by the final whistle. The soccer ball markers pinpoint the critical moments where tactical pressure translated into actual goals, showcasing a highly efficient "punch-for-punch" dynamic.
         </p>
     </div>
 
@@ -205,15 +202,16 @@ lang: en
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Argentina demonstrated superiority in xG generation and spatial control. To neutralize 
-            this scheme, future opponents should: (1) avoid Argentina's high press with more elaborate 
-            build-up play, (2) close spaces between lines where Messi and De Paul operate, and 
-            (3) be more aggressive in transitions to exploit spaces left by the high defensive line.
+            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
+            </br>
+            (1) Continue isolating Wirtz in half-spaces to trigger high-value shot assists.
+            </br>
+            (2) Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.
+            </br>
+            (3) Maintain the high-press intensity that led to Frimpong's central recoveries.
         </p>
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation:</strong> Direct pressing on Rodríguez and Otamendi during build-up 
-            could disrupt Argentina's progression, forcing long balls that reduce their effectiveness 
-            in creating high xG opportunities.
+            <strong>Key Recommendation: Exploiting the space behind high-flying fullbacks through vertical transitions remains Leverkusen's most lethal weapon against top-tier pressing teams.
         </p>
     </div>
 
