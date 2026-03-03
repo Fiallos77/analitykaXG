@@ -1,13 +1,12 @@
 ---
 layout: report
-title: Argentina vs Ecuador - Spatial Threat Analysis
-description: Post-match tactical analysis using 15-second threat window model. Finishing zone dominance and pressure pattern breakdown.
+title: Bayer Leverkusen vs Bayern Munich - xG & Finishing Analysis
+description: Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models..
 category: Post-Match Analysis
-competition: Copa América 2024
+competition: Bundesliga 23/24
 date: 2024-07-04
 lang: en
 ---
-
 <!-- REPORT HERO -->
 <div class="report-hero">
     <span class="report-category">{{ page.category }}</span>
@@ -25,12 +24,12 @@ lang: en
 <div class="executive-summary">
     <h2>🎯 Executive Summary</h2>
     <ul class="key-insights">
-        <li>Argentina dominated accumulated xG (2.1 vs 0.8) primarily from central zones</li>
-        <li>Ecuador generated danger in quick transitions but with low conversion rate</li>
-        <li>The 15s threat window model identified 8 high-risk Argentine possessions vs 3 Ecuadorian</li>
+        <li>Statistical Parity: The match concluded with a remarkably balanced expected goals (xG) profile, with Leverkusen reaching 1.52 xG against Bayern Munich's slight lead of ~1.72 xG, reflecting the 2-2 tactical stalemate on the pitch.</li>
+        <li>High-Value Chance Creation: Leverkusen's offensive strategy prioritized quality over volume in the second half, identified by the "Big Chances" (glowing markers) created in the central finishing zone by Jeremie Frimpong and Jonathan Tah.</li>
+        <li>Dynamic Threat Profile: The xG Flow analysis reveals that Leverkusen maintained a consistent danger output, notably recovering from Bayern's early pressure to dominate the mid-game threat windows.</li>
+        <li>Individual Impact: Jeremie Frimpong emerged as the primary offensive catalyst for Leverkusen, leading the team with 0.49 individual xG, followed closely by Florian Wirtz (0.45 xG), who orchestrated play in the final third.</li>
     </ul>
 </div>
-
 <!-- CONTENT SECTIONS -->
 <div class="report-content">
     
