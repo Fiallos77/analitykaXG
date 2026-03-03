@@ -73,8 +73,11 @@ lang: en
         </ul>    
     </div>
 
+<!-- Section 1: Match 2 -->
+    <div class="content-section">
+         <h2>Match Momentum & xG Evolution</h2>
+   </div>
  <!-- Visualization 2: XG -->
-    <h2>Match Momentum & xG Evolution</h2>
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
