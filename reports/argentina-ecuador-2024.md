@@ -65,7 +65,7 @@ lang: en
             (central six-yard and penalty area). Key findings include:
         </p>
         <ul class="key-insights">
-            <li>Statistical Parity: The match concluded with a remarkably balanced expected goals (xG) profile, with Leverkusen reaching 1.52 xG against Bayern Munich's slight lead of                 ~1.72 xG, reflecting the 2-2 tactical stalemate on the pitch.
+            <li>Statistical Parity: The match  concluded with a remarkably balanced expected goals (xG) profile, with Leverkusen reaching 1.52 xG against Bayern Munich's slight lead of                 ~1.72 xG, reflecting the 2-2 tactical stalemate on the pitch.
             </li>
             <li>High-Value Chance Creation: Leverkusen's offensive strategy prioritized quality over volume in the second half, identified by the "Big Chances" (glowing markers) created in the central finishing zone by Jeremie Frimpong and Jonathan Tah.</li>
             <li>Dynamic Threat Profile: The xG Flow analysis reveals that Leverkusen maintained a consistent danger output, notably recovering from Bayern's early pressure to dominate the mid-game threat windows.
