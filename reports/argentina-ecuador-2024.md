@@ -75,12 +75,15 @@ lang: en
 <!-- Section 1: Match 2 -->
     <div class="content-section">
          <h2>Match Momentum & xG Evolution</h2>
+         <p>
+         The xG Flow model shows Leverkusen's high resilience. Despite Bayern's early pressure, the team maintained a steady threat level, achieving statistical parity (1.52 xG) by the final whistle through clinical efficiency in key transitions.
+        </p>
    </div>
  <!-- Visualization 2: XG -->
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 2:</strong> The cumulative xG flow reveals a high-tension encounter where Leverkusen managed to neutralize Bayern’s home advantage. Despite Bayern's early pressure, Leverkusen’s steady climb in xG demonstrates a resilient attacking structure. The parity achieved by the 90th minute (1.52 xG) reflects a performance that was statistically as lethal as the reigning champions, proving Xabi Alonso's tactical maturity in big-game scenarios.
+            <strong>Figure 2:</strong> Cumulative xG Flow. The step-function lines track the timing and probability of every shot. Soccer ball markers indicate goals, while the dashed line represents Bayern Munich’s threat timeline, providing a direct comparison of match dominance over the 95-minute duration.
         </p>
     </div>
 
