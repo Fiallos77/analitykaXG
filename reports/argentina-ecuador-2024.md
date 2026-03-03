@@ -52,8 +52,7 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 1:</strong> Shot map with xG values. Argentina concentrated their shots 
-            in high-value central zones (0.15+ xG), while Ecuador attempted from more distant positions.
+            <strong>Figure 1:</strong> Leverkusen Advanced Shot Map. Arrows indicate goals from Jonathan Tah, Jeremie Frimpong, and Florian Wirtz. The "glow" markers highlight high-value central opportunities (>0.4 xG), showcasing Leverkusen's efficiency in reaching the Golden Zone.
         </p>
     </div>
 
@@ -81,8 +80,7 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 1:</strong> Shot map with xG values. Argentina concentrated their shots 
-            in high-value central zones (0.15+ xG), while Ecuador attempted from more distant positions.
+            <strong>Figure 2:</strong> The cumulative xG flow reveals a high-tension encounter where Leverkusen managed to neutralize Bayern’s home advantage. Despite Bayern's early pressure, Leverkusen’s steady climb in xG demonstrates a resilient attacking structure. The parity achieved by the 90th minute (1.52 xG) reflects a performance that was statistically as lethal as the reigning champions, proving Xabi Alonso's tactical maturity in big-game scenarios.
         </p>
     </div>
 
