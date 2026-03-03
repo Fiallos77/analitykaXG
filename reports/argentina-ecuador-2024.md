@@ -74,8 +74,8 @@ lang: en
     </div>
 
  <!-- Visualization 2: XG -->
-    <div class="visualization">
     <h2>Match Momentum & xG Evolution</h2>
+    <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
             <strong>Figure 1:</strong> Shot map with xG values. Argentina concentrated their shots 
