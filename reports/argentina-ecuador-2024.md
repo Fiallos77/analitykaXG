@@ -30,6 +30,51 @@ lang: en
         <li>Individual Impact: Jeremie Frimpong emerged as the primary offensive catalyst for Leverkusen, leading the team with 0.49 individual xG, followed closely by Florian Wirtz (0.45 xG), who orchestrated play in the final third.</li>
     </ul>
 </div>
+    <!-- Stats Comparison -->
+    <div class="stats-comparison">
+        <div class="team-stats">
+            <div class="team-name">BAYERN MUNICH</div>
+            <div class="stat-row">
+                <span class="stat-value">1.72</span>
+                <span class="stat-label">Total xG</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">16</span>
+                <span class="stat-label">Shots</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">10</span>
+                <span class="stat-label">In Box</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">10.5</span>
+                <span class="stat-label">PPDA</span>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="team-stats">
+            <div class="team-name">BAYER LEVERKUSEN</div>
+            <div class="stat-row">
+                <span class="stat-value">1.52</span>
+                <span class="stat-label">Total xG</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">13</span>
+                <span class="stat-label">Shots</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">9</span>
+                <span class="stat-label">In Box</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-value">12.2</span>
+                <span class="stat-label">PPDA</span>
+            </div>
+        </div>
+    </div>
+
 <!-- CONTENT SECTIONS -->
 <div class="report-content">
     
@@ -93,51 +138,6 @@ lang: en
         <p>
             The xG Flow chart illustrates the competitive tension of the match. While Bayern Munich established early dominance, Leverkusen’s resilience is evident in the steep climbs of their cumulative xG line during the middle and late stages of the game. The visualization confirms that Leverkusen didn't just survive the match; they actively challenged Bayern's defensive structure, achieving statistical parity by the final whistle. The soccer ball markers pinpoint the critical moments where tactical pressure translated into actual goals, showcasing a highly efficient "punch-for-punch" dynamic.
         </p>
-    </div>
-
-    <!-- Stats Comparison -->
-    <div class="stats-comparison">
-        <div class="team-stats">
-            <div class="team-name">ARGENTINA</div>
-            <div class="stat-row">
-                <span class="stat-value">2.1</span>
-                <span class="stat-label">Total xG</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">14</span>
-                <span class="stat-label">Shots</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">8</span>
-                <span class="stat-label">In Box</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">8.2</span>
-                <span class="stat-label">PPDA</span>
-            </div>
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="team-stats">
-            <div class="team-name">ECUADOR</div>
-            <div class="stat-row">
-                <span class="stat-value">0.8</span>
-                <span class="stat-label">Total xG</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">9</span>
-                <span class="stat-label">Shots</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">3</span>
-                <span class="stat-label">In Box</span>
-            </div>
-            <div class="stat-row">
-                <span class="stat-value">11.3</span>
-                <span class="stat-label">PPDA</span>
-            </div>
-        </div>
     </div>
 
     <!-- Conclusion -->
