@@ -139,31 +139,6 @@ lang: en
         </div>
     </div>
 
-    <!-- Section 3: Threat Windows -->
-    <div class="content-section">
-        <h3>Threat Windows (15s Model)</h3>
-        <p>
-            Our model identifies high-risk possessions based on spatial progression 
-            within 15-second windows. Argentina generated 8 sequences classified as "high threat", 
-            primarily after recoveries in the opponent's half.
-        </p>
-        <p>
-            Ecuador, on the other hand, only achieved 3 significant threat windows, all in quick 
-            counterattacks where they exploited spaces left by Argentina's high defensive line.
-        </p>
-    </div>
-
-    <!-- Visualization 2: Heatmap (placeholder) -->
-    <div class="visualization">
-        <div style="width: 100%; height: 400px; background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--text-secondary); font-size: 18px;">
-            [Heatmap of dangerous possessions]
-        </div>
-        <p class="viz-caption">
-            <strong>Figure 2:</strong> Heatmap of possessions classified as high threat. 
-            Argentina dominated central spaces between 20-40m from the opponent's goal.
-        </p>
-    </div>
-
     <!-- Section 4: Tactical Patterns -->
     <div class="content-section">
         <h2>🛠️ Methodology & Tools</h2>
@@ -206,18 +181,19 @@ lang: en
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
-            
-            <ul>
-                <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.</li>
-                <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
-                <li>Maintain the high-press intensity that led to Frimpong's central recoveries.</li>
-            </ul>
+            Argentina demonstrated superiority in xG generation and spatial control. To neutralize 
+            this scheme, future opponents should: (1) avoid Argentina's high press with more elaborate 
+            build-up play, (2) close spaces between lines where Messi and De Paul operate, and 
+            (3) be more aggressive in transitions to exploit spaces left by the high defensive line.
         </p>
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation: Exploiting the space behind high-flying fullbacks through vertical transitions remains Leverkusen's most lethal weapon against top-tier pressing teams.
+            <strong>Key Recommendation:</strong> Direct pressing on Rodríguez and Otamendi during build-up 
+            could disrupt Argentina's progression, forcing long balls that reduce their effectiveness 
+            in creating high xG opportunities.
         </p>
     </div>
+
+</div>
 
 <!-- METADATA -->
 <div class="report-metadata">
