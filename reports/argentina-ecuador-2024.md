@@ -130,14 +130,6 @@ lang: en
         </p>
     </div>
 
-    <!-- Section 2: xG Analysis -->
-    <div class="content-section">
-        
-        <p>
-            The xG Flow chart illustrates the competitive tension of the match. While Bayern Munich established early dominance, Leverkusen’s resilience is evident in the steep climbs of their cumulative xG line during the middle and late stages of the game. The visualization confirms that Leverkusen didn't just survive the match; they actively challenged Bayern's defensive structure, achieving statistical parity by the final whistle. The soccer ball markers pinpoint the critical moments where tactical pressure translated into actual goals, showcasing a highly efficient "punch-for-punch" dynamic.
-        </p>
-    </div>
-
     <!-- Conclusion -->
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
