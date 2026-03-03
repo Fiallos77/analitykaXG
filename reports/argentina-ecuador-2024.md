@@ -37,13 +37,14 @@ lang: en
     <div class="content-section">
         <h2>Match Context</h2>
         <p>
-            Argentina entered this Copa América encounter as favorites, while Ecuador 
-            sought to surprise with a medium-high pressing scheme. The match was played 
-            under normal conditions and ended 2-1 in favor of La Albiceleste.
+            This Bundesliga encounter features a high-stakes tactical battle between Bayern Munich and Bayer Leverkusen. 
+            Played at the Allianz Arena, the match served as a definitive test for Xabi Alonso’s side against the reigning 
+            champions.
         </p>
         <p>
-            The analysis focuses on spatial threat distribution and finishing zone 
-            effectiveness using our proprietary 15-second window model.
+            The analysis focuses on spatial efficiency and finishing quality, utilizing StatsBomb open data to break down 
+            how Leverkusen managed to secure a 2-2 draw through disciplined shot selection and clinical execution in 
+            high-probability zones.
         </p>
     </div>
 
