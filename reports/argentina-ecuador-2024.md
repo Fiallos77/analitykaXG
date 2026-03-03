@@ -202,7 +202,7 @@ lang: en
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
+            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:<br>
             <ul>
                 <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.</li>
                 <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
@@ -213,8 +213,6 @@ lang: en
             <strong>Key Recommendation: Exploiting the space behind high-flying fullbacks through vertical transitions remains Leverkusen's most lethal weapon against top-tier pressing teams.
         </p>
     </div>
-
-</div>
 
 <!-- METADATA -->
 <div class="report-metadata">
