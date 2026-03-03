@@ -73,6 +73,15 @@ lang: en
         </ul>    
     </div>
 
+ <!-- Visualization 2: XG -->
+    <div class="visualization">
+        <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
+        <p class="viz-caption">
+            <strong>Figure 1:</strong> Shot map with xG values. Argentina concentrated their shots 
+            in high-value central zones (0.15+ xG), while Ecuador attempted from more distant positions.
+        </p>
+    </div>
+
     <!-- Section 2: xG Analysis -->
     <div class="content-section">
         <h2>Expected Goals Analysis</h2>
