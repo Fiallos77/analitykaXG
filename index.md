@@ -73,22 +73,21 @@ lang: en
                 </span>
             </div>
         </a>
-        <!-- Card 2: Argentina vs Ecuador  -->
+        <!-- Card 2: Bayer vs Leverkusen  -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">📊</div>
             </div>
             <div class="report-content">
                 <span class="report-tag">Post-Match Analysis</span>
-                <h3>Bayer Leverkusen vs Bayer Munich </h3>
+                <h3>Bayer Leverkusen: Tactical xG Breakdown</h3>
                 <div class="report-meta">
                     <span>Bundesliga 23/24</span>
                     <span>•</span>
-                    <span>July 2024</span>
+                    <span>Marzo 2026</span>
                 </div>
                 <p class="report-excerpt">
-                    Spatial threat distribution analysis using 15-second window model. 
-                    Finishing zone dominance and pressure patterns breakdown.
+                    An in-depth study of Xabi Alonso's finishing zone dominance. Using advanced xG Flow models to analyze how Leverkusen achieved statistical parity against the reigning champions at the Allianz Arena.
                 </p>
                 <span class="report-link">
                     Read full analysis
