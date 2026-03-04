@@ -157,6 +157,7 @@ lang: en
     </div>
 
 </div>
+</div>
 
 <!-- METADATA -->
 <div class="report-metadata">
