@@ -82,7 +82,7 @@ lang: en
                 <span class="report-tag">Post-Match Analysis</span>
                 <h3>Bayer Leverkusen vs Bayer Munich </h3>
                 <div class="report-meta">
-                    <span>Bundes Liga 23/24</span>
+                    <span>Bundesliga 23/24</span>
                     <span>•</span>
                     <span>July 2024</span>
                 </div>
