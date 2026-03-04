@@ -74,15 +74,15 @@ lang: en
             </div>
         </a>
         <!-- Card 2: Argentina vs Ecuador  -->
-        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich.md" class="report-card">
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">📊</div>
             </div>
             <div class="report-content">
                 <span class="report-tag">Post-Match Analysis</span>
-                <h3>Argentina vs Ecuador</h3>
+                <h3>Bayer Leverkusen vs Bayer Munich </h3>
                 <div class="report-meta">
-                    <span>Copa América 2024</span>
+                    <span>Bundes Liga 23/24</span>
                     <span>•</span>
                     <span>July 2024</span>
                 </div>
