@@ -148,6 +148,14 @@ lang: en
         </p>
     </div>
 
+        <!-- Analyst's Note: Efficiency vs. Volume -->
+    <div class="conclusion-box">
+        <h3>Analyst's Note: Efficiency vs. Volume</h3>
+        <p>
+            While Bayern Munich led in total xG (1.72) and shot volume (16), the underlying data reveals a superior tactical execution by Bayer Leverkusen. By generating 3 Big Chances from fewer attempts, Leverkusen achieved a higher xG per shot (0.116) compared to Bayern’s 0.10. This analysis proves that Xabi Alonso’s side didn't just "survive" the Allianz Arena; they optimized their attacking possessions to challenge the champions through clinical spatial dominance rather than mere persistence.
+        </p>
+    </div>
+
 </div>
 
 <!-- METADATA -->
