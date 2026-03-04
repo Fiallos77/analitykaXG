@@ -51,8 +51,8 @@ lang: en
             <span class="stat-label">BIG CHANCES</span>
         </div>
     </div>
-     <div class="divider"></div>
-     <div class="team-stats">
+    <div class="divider"></div>
+    <div class="team-stats">
         <div class="team-name">BAYER LEVERKUSEN</div>
         <div class="stat-row">
             <span class="stat-value">1.52</span>
@@ -75,8 +75,7 @@ lang: en
 
 <!-- CONTENT SECTIONS -->
 <div class="report-content">
-    
-    <!-- Section 1: Match Context -->
+<!-- Section 1: Match Context -->
     <div class="content-section">
         <h2>Match Context</h2>
         <p>
@@ -90,16 +89,14 @@ lang: en
             high-probability zones.
         </p>
     </div>
-
-    <!-- Visualization 1: Shot Map -->
+<!-- Visualization 1: Shot Map -->
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
             <strong>Figure 1:</strong> Leverkusen Advanced Shot Map. Arrows indicate goals from Jonathan Tah, Jeremie Frimpong, and Florian Wirtz. The "glow" markers highlight high-value central opportunities (>0.4 xG), showcasing Leverkusen's efficiency in reaching the Golden Zone.
         </p>
     </div>
-
-        <!-- Section 2.1: Threat Windows -->
+ <!-- Section 2.1: Threat Windows -->
     <div class="content-section">
         <h3>Tactical Analysis: Shot Map & Efficiency</h3>
         <p>
@@ -114,7 +111,6 @@ lang: en
             </li>
         </ul>    
     </div>
-
 <!-- Section 1: Match 2 -->
     <div class="content-section">
          <h2>Match Momentum & xG Evolution</h2>
@@ -129,7 +125,6 @@ lang: en
             <strong>Figure 2:</strong> Cumulative xG Flow. The step-function lines track the timing and probability of every shot. Soccer ball markers indicate goals, while the dashed line represents Bayern Munich’s threat timeline, providing a direct comparison of match dominance over the 95-minute duration.
         </p>
     </div>
-
     <!-- Conclusion -->
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
@@ -147,17 +142,14 @@ lang: en
             <strong>Key Recommendation: Direct pressing on Upamecano and Kim Min-jae during build-up could disrupt Bayern's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.</strong>
         </p>
     </div>
-
-        <!-- Analyst's Note: Efficiency vs. Volume -->
+ <!-- Analyst's Note: Efficiency vs. Volume -->
     <div class="conclusion-box">
         <h3>Analyst's Note: Efficiency vs. Volume</h3>
         <p>
             While Bayern Munich led in total xG (1.72) and shot volume (16), the underlying data reveals a superior tactical execution by Bayer Leverkusen. By generating 3 Big Chances from fewer attempts, Leverkusen achieved a higher xG per shot (0.116) compared to Bayern’s 0.10. This analysis proves that Xabi Alonso’s side didn't just "survive" the Allianz Arena; they optimized their attacking possessions to challenge the champions through clinical spatial dominance rather than mere persistence.
         </p>
     </div>
-
 </div>
-
 <!-- METADATA -->
 <div class="report-metadata">
     <div class="metadata-row">
