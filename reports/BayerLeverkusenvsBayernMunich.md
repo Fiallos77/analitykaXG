@@ -137,14 +137,14 @@ lang: en
             Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
         </p>
         <ul class="key-insights">
-            <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists.
+            <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists against aggressive defensive lines.
             </li>
             <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
-            <li>Maintain the high-press intensity that led to Frimpong's central recoveries.
+            <li>Maintain the high-press intensity that led to Frimpong's central recoveries and high-probability scoring chances.
             </li>
         </ul>   
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation: Direct pressing on Rodríguez and Otamendi during build-up could disrupt Argentina's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.
+            <strong>Key Recommendation: Direct pressing on Upamecano and Kim Min-jae during build-up could disrupt Bayern's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.
         </p>
     </div>
 
