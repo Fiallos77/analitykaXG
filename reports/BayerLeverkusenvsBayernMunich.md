@@ -1,7 +1,7 @@
 ---
 layout: report
 title: Bayer Leverkusen vs Bayern Munich - xG & Finishing Analysis
-description: Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models..
+description: Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models.
 category: Post-Match Analysis
 competition: Bundesliga 23/24
 date: 2024-03-03
@@ -144,7 +144,7 @@ lang: en
             </li>
         </ul>   
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation: Direct pressing on Upamecano and Kim Min-jae during build-up could disrupt Bayern's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.
+            <strong>Key Recommendation: Direct pressing on Upamecano and Kim Min-jae during build-up could disrupt Bayern's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.</strong>
         </p>
     </div>
 
