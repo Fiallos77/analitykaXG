@@ -76,7 +76,7 @@ lang: en
         <!-- Card 2: Bayer vs Leverkusen  -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
             <div class="report-thumbnail">
-                <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">📊</div>
+                <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Post-Match Analysis</span>
