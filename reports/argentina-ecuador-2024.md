@@ -47,8 +47,8 @@ lang: en
             <span class="stat-label">In Box</span>
         </div>
         <div class="stat-row">
-            <span class="stat-value">10.5</span>
-            <span class="stat-label">PPDA</span>
+            <span class="stat-value">2</span>
+            <span class="stat-label">BIG CHANCES</span>
         </div>
     </div>
      <div class="divider"></div>
@@ -67,8 +67,8 @@ lang: en
             <span class="stat-label">In Box</span>
         </div>
         <div class="stat-row">
-            <span class="stat-value">12.2</span>
-            <span class="stat-label">PPDA</span>
+            <span class="stat-value">3</span>
+            <span class="stat-label">BIG CHANCES</span>
         </div>
     </div>
 </div>
