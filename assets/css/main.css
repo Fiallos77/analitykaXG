@@ -1023,4 +1023,7 @@ footer {
         padding: 4px 8px;
         font-size: 12px;
     }
+   .about-grid { 
+         grid-template-columns: 1fr; 
+   }
 }
