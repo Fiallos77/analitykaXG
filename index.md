@@ -45,13 +45,10 @@ lang: en
 <section class="section" id="about" style="background: var(--bg-secondary); max-width: 100%; padding: 80px 40px;">
     <div class="section-header">
         <h2>Analytical Approach</h2>
-        <p>Football analyst combining data and tactical observation</p>
     </div>
     <p style="text-align: justify; color: var(--text-secondary); font-size: 16px; line-height: 1.8; max-width: 700px; margin: 0 auto;">
-        Football performance analysis combining data, tactical observation and spatial metrics 
-        to interpret how teams and players create and concede advantages on the pitch. 
-        Areas of work include match analysis, team performance evaluation and player 
-        impact across different phases of play.
+        Football analyst combining data analysis and tactical observation to understand team performance and player impact.
+        My work explores match dynamics, tactical structures and individual contributions across different phases of play.
     </p>
 </section>-->
 
