@@ -43,7 +43,7 @@ lang: en
         <span class="stat-label">Tech Stack</span>
     </div>
 </div>
-<!-- ABOUT SECTION -->
+<!-- ABOUUT SECTION -->
 <section class="section" id="about">
     <div class="section-header">
         <h2>About</h2>
