@@ -24,10 +24,9 @@ lang: en
 <div class="executive-summary">
     <h2>🎯 Executive Summary</h2>
     <ul class="key-insights">
-        <li>Statistical Parity: The match concluded with a remarkably balanced expected goals (xG) profile, with Leverkusen reaching 1.52 xG against Bayern Munich's slight lead of ~1.72 xG, reflecting the 2-2 tactical stalemate on the pitch.</li>
-        <li>High-Value Chance Creation: Leverkusen's offensive strategy prioritized quality over volume in the second half, identified by the "Big Chances" (glowing markers) created in the central finishing zone by Jeremie Frimpong and Jonathan Tah.</li>
-        <li>Dynamic Threat Profile: The xG Flow analysis reveals that Leverkusen maintained a consistent danger output, notably recovering from Bayern's early pressure to dominate the mid-game threat windows.</li>
-        <li>Individual Impact: Jeremie Frimpong emerged as the primary offensive catalyst for Leverkusen, leading the team with 0.49 individual xG, followed closely by Florian Wirtz (0.45 xG), who orchestrated play in the final third.</li>
+        <li>Bayern generated higher shot volume (16 shots) but with lower average shot quality.</li>
+        <li>Leverkusen created fewer opportunities but consistently reached central areas, producing three big chances.</li>
+        <li>Most of Leverkusen’s threat came during transitional phases rather than sustained possession.</li>
     </ul>
 </div>
  <!-- Stats Comparison -->
@@ -79,14 +78,8 @@ lang: en
     <div class="content-section">
         <h2>Match Context</h2>
         <p>
-            This Bundesliga encounter features a high-stakes tactical battle between Bayern Munich and Bayer Leverkusen. 
-            Played at the Allianz Arena, the match served as a definitive test for Xabi Alonso’s side against the reigning 
-            champions.
-        </p>
-        <p>
-            The analysis focuses on spatial efficiency and finishing quality, utilizing StatsBomb open data to break down 
-            how Leverkusen managed to secure a 2-2 draw through disciplined shot selection and clinical execution in 
-            high-probability zones.
+            This Bundesliga matchup at the Allianz Arena tested Bayer Leverkusen’s ability to compete against Bayern Munich’s territorial dominance.
+While Bayern controlled possession for long periods, Leverkusen relied on vertical progression and quick transitions to generate high-quality chances.
         </p>
     </div>
 <!-- Visualization 1: Shot Map -->
@@ -100,22 +93,17 @@ lang: en
     <div class="content-section">
         <h3>Tactical Analysis: Shot Map & Efficiency</h3>
         <p>
-            The shot map reveals a highly concentrated attacking pattern, with Leverkusen successfully penetrating the "Golden Zone" 
-            (central six-yard and penalty area). Key findings include:
-        </p>
-        <ul class="key-insights">
-            <li>Shot Quality over Volume: Despite having fewer total attempts than Bayern, Leverkusen’s average xG per shot was remarkably high, evidenced by the large, glowing markers representing "Big Chances" created in central positions.
-            </li>
-            <li>Central Dominance: The visualization shows a clear rejection of low-probability long-range efforts, with almost all significant threats originating from inside the box.</li>
-            <li>Individual Precision: The primary threat was spearheaded by Jeremie Frimpong (0.49 xG) and Florian Wirtz (0.45 xG), who effectively exploited vertical gaps in Bayern's defensive line to reach high-value shooting coordinates.
-            </li>
-        </ul>    
+            The shot map reveals a clear difference in attacking approach.
+            Bayern produced a higher volume of attempts, but many of them came from wider or deeper positions. Leverkusen, on the other hand, generated fewer shots but consistently accessed central areas inside the penalty box.
+            This suggests a more selective attacking structure, prioritizing high-probability chances rather than shot volume.
+        </p>    
     </div>
 <!-- Section 1: Match 2 -->
     <div class="content-section">
          <h2>Match Momentum & xG Evolution</h2>
          <p>
-         The xG Flow model shows Leverkusen's high resilience. Despite Bayern's early pressure, the team maintained a steady threat level, achieving statistical parity (1.52 xG) by the final whistle through clinical efficiency in key transitions.
+             The xG timeline shows Bayern creating early pressure during the opening 20 minutes.
+             However, Leverkusen gradually balanced the threat profile, producing several high-value chances during the middle phase of the match.
         </p>
    </div>
  <!-- Visualization 2: XG -->
@@ -129,24 +117,19 @@ lang: en
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
         <p>
-            Leverkusen’s performance at the Allianz Arena was a masterclass in efficient attacking transition. By maintaining a high xG per shot ratio (0.13 avg), they neutralized Bayern’s volume-based pressure. To sustain this elite level, Leverkusen must:
+            Leverkusen’s performance relied on attacking efficiency rather than shot volume.
+            Despite Bayern generating more attempts overall, Leverkusen consistently reached central shooting zones and created a similar level of expected goals through fewer but higher-quality chances.
         </p>
-        <ul class="key-insights">
-            <li>Continue isolating Wirtz in half-spaces to trigger high-value shot assists against aggressive defensive lines.
-            </li>
-            <li>Improve defensive coverage on the wings to prevent early deficit spikes as seen in the first 20 minutes of the xG Flow.</li>
-            <li>Maintain the high-press intensity that led to Frimpong's central recoveries and high-probability scoring chances.
-            </li>
-        </ul>   
         <p style="margin-top: 16px;">
-            <strong>Key Recommendation: Direct pressing on Upamecano and Kim Min-jae during build-up could disrupt Bayern's progression, forcing long balls that reduce their effectiveness in creating high xG opportunities.</strong>
+            <strong>Key Insight:</strong> Bayern's build-up relies heavily on the distribution of Upamecano and Kim Min-jae. Applying targeted pressure on these first-phase passes could force longer progressions and potentially reduce Bayern’s ability to generate structured high-xG chances.
         </p>
     </div>
  <!-- Analyst's Note: Efficiency vs. Volume -->
     <div class="conclusion-box">
         <h3>Analyst's Note: Efficiency vs. Volume</h3>
         <p>
-            While Bayern Munich led in total xG (1.72) and shot volume (16), the underlying data reveals a superior tactical execution by Bayer Leverkusen. By generating 3 Big Chances from fewer attempts, Leverkusen achieved a higher xG per shot (0.116) compared to Bayern’s 0.10. This analysis proves that Xabi Alonso’s side didn't just "survive" the Allianz Arena; they optimized their attacking possessions to challenge the champions through clinical spatial dominance rather than mere persistence.
+            This match illustrates how shot quality can compensate for differences in shot volume.
+            Leverkusen’s attacking structure allowed them to access central areas and generate high-value opportunities even while spending less time in possession.
         </p>
     </div>
 </div>
