@@ -115,16 +115,15 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
     <!-- Conclusion -->
     <div class="conclusion-box">
         <h3>💡 Tactical Conclusion</h3>
-        <p>
+        <p style="margin-bottom:16px;">
             Leverkusen’s performance relied on attacking efficiency rather than shot volume.
             Despite Bayern generating more attempts overall, Leverkusen consistently reached central shooting zones and created a similar level of expected goals through fewer but higher-quality chances.
         </p>
-        <p>
+        <p style="margin-bottom:16px;">
             <strong>Insight:</strong> Bayern produced more shots overall, but many attempts came from wider or deeper positions. 
             Leverkusen generated fewer attempts but reached central shooting zones more consistently, resulting in higher average shot quality.
         </p>
-        &nbsp;
-        <p>
+        <p style="margin-bottom:16px;">
             <strong>Tactical Perspective:</strong> Bayern’s build-up often begins through their central defenders. 
             Applying targeted pressure during the first build-up phase could disrupt their progression and force longer passes, reducing their ability to construct structured attacks.
         </p>
