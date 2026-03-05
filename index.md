@@ -12,8 +12,9 @@ lang: en
             <p class="subtitle">Football Data Analyst</p>
             <h1>Tactical Intelligence<br>Through Data</h1>
             <p class="tagline">
-                Elite-level tactical analysis based on <strong>advanced xG models</strong>, 
-                spatial dominance, and pressure structures. Transforming data into decisions for professional clubs.
+                Match analysis combining data, video observation
+                and spatial metrics to understand how teams create
+                and concede scoring opportunities.
             </p>
             <div class="hero-cta">
                 <a href="#reports" class="cta-primary">
@@ -128,10 +129,12 @@ lang: en
     <div class="methodology-grid">
         <div class="method-card">
             <div class="method-icon">📈</div>
-            <h3>xG Modeling</h3>
+            <h3>Methods</h3>
             <p>
-                Expected goals models incorporating distance, angle, 
-                defensive pressure, and game context to calculate goal probability.
+                • Data analysis
+                • Video-based tactical observation
+                • Spatial event analysis
+                • Performance metrics interpretation
             </p>
         </div>
 
@@ -146,10 +149,13 @@ lang: en
 
         <div class="method-card">
             <div class="method-icon">⚡</div>
-            <h3>Threat Windows</h3>
+            <h3>Areas of Analysis</h3>
             <p>
-                Proprietary 15-second threat window model measuring possession 
-                dangerousness based on pressure and spatial position.
+                • Match performance analysis
+                • Team tactical structure
+                • Player performance evaluation
+                • Attacking and defensive patterns
+                • Game dynamics and momentum
             </p>
         </div>
     </div>
