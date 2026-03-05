@@ -19,9 +19,6 @@ lang: en
                     View Analysis
                     <span>→</span>
                 </a>
-                <a href="#methodology" class="cta-secondary">
-                    Methodology
-                </a>
             </div>
         </div>
     </div>
