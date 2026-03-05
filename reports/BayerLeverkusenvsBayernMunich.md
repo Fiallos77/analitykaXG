@@ -86,8 +86,7 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 1:</strong> Shot map showing the spatial distribution of Leverkusen's attempts. 
-                Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+            <strong>Figure 1: </strong>strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
         </p>
     </div>
  <!-- Section 2.1: Threat Windows -->
@@ -111,8 +110,7 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 2:</strong> Cumulative xG timeline showing the evolution of attacking threat during the match. 
-            Bayern generated early pressure, while Leverkusen's chances emerged mainly during transitional phases in the middle stages of the game.
+            <strong>Figure 2:</strong>strong> Cumulative xG timeline showing the evolution of attacking threat during the match. Bayern generated early pressure, while Leverkusen’s chances mainly appeared during transitional phases in the middle stages of the game.
         </p>
     </div>
     <!-- Conclusion -->
