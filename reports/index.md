@@ -22,7 +22,7 @@ lang: en
     </div>
 
     <!-- GRID -->
-    <div class="reports-grid" id="reports-grid" style="grid-template-columns: repeat(3, 1fr);">
+    <div class="reports-grid" id="reports-grid" style="grid-template-columns: repeat(auto-fill, minmax(320px, 380px)); justify-content: start;">
 
         <!-- Card: Celta Vigo -->
         <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card" data-category="team">
