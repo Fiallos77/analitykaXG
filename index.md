@@ -52,24 +52,9 @@ lang: en
     <div class="about-grid">
         <div class="about-text">
             <p>
-                I'm a football data analyst focused on turning raw match data into 
-                tactical insights. My work combines Python-based xG modeling, spatial 
-                analysis, and video observation to understand how teams create and 
-                concede opportunities.
+                Football performance analysis combining data, tactical observation and spatial metrics to interpret how teams and players create and concede advantages on the pitch.
+                Areas of work include match analysis, team performance evaluation and player impact across different phases of play.
             </p>
-            <p>
-                With experience across 10+ leagues and 25+ published reports, I build 
-                custom analytical frameworks for clubs, agencies, and scouting departments 
-                looking for an edge beyond traditional stats.
-            </p>
-        </div>
-        <div class="about-tags">
-            <span class="report-tag">xG Modeling</span>
-            <span class="report-tag">Spatial Analysis</span>
-            <span class="report-tag">Python</span>
-            <span class="report-tag">StatsBomb</span>
-            <span class="report-tag">Tactical Scouting</span>
-            <span class="report-tag">Video Analysis</span>
         </div>
     </div>
 </section>
