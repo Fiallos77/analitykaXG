@@ -47,7 +47,7 @@ lang: en
         Football analyst combining data analysis and tactical observation to understand team performance and player impact.
         My work explores match dynamics, tactical structures and individual contributions across different phases of play.
     </p>
-</section>-->
+</section> -->
 
 <!-- FEATURED REPORTS -->
 <section class="section" id="reports">
