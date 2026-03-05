@@ -37,7 +37,7 @@ lang: en
         <span class="stat-number">Python</span>
         <span class="stat-label">Tech Stack</span>
     </div>
-</div>
+</div> -->
 <!-- ABOUT SECTION -->
 <section class="section" id="about" style="background: var(--bg-secondary); max-width: 100%; padding: 80px 40px;">
     <div class="section-header">
@@ -47,7 +47,7 @@ lang: en
         Football analyst combining data analysis and tactical observation to understand team performance and player impact.
         My work explores match dynamics, tactical structures and individual contributions across different phases of play.
     </p>
-</section> -->
+</section> 
 
 <!-- FEATURED REPORTS -->
 <section class="section" id="reports">
