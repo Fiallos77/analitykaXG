@@ -130,10 +130,10 @@ lang: en
      </div>
 </section>
 
-<!-- METHODOLOGY -->
+<!-- METHODOLOGY 
 <section class="section" id="methodology">
     <div class="section-header">
-        <h2>Methodology</h2>
+        <h2>Analysis Framework</h2>
         <p>Proprietary models developed in Python on StatsBomb data</p>
     </div>
 
@@ -170,7 +170,7 @@ lang: en
             </p>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- CTA SECTION -->
 <div class="cta-section">
