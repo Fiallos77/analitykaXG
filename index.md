@@ -9,12 +9,10 @@ lang: en
     <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);z-index:0;"></div>
     <div class="hero-content" style="position:relative;z-index:1;width:100%;text-align:center;">
          <div class="hero-text">
-            <p class="subtitle">Football Data Analyst</p>
-            <h1>Tactical Intelligence<br>Through Data</h1>
+            <p class="subtitle">Football Performance & Data Analyst</p>
+            <h1>Football Performance & Data Analyst<br>Through Data</h1>
             <p class="tagline">
-                Match analysis combining data, video observation
-                and spatial metrics to understand how teams create
-                and concede scoring opportunities.
+                Performance analysis combining data, video observation and spatial metrics to understand how teams and players create advantages on the pitch.
             </p>
             <div class="hero-cta">
                 <a href="#reports" class="cta-primary">
@@ -46,7 +44,7 @@ lang: en
 <!-- ABOUT SECTION -->
 <section class="section" id="about">
     <div class="section-header">
-        <h2>About</h2>
+        <h2>Analytical Approach</h2>
         <p>Football analyst combining data and tactical observation</p>
     </div>
     <p style="text-align: justify; color: var(--text-secondary); font-size: 16px; line-height: 1.8; max-width: 700px; margin: 0 auto;">
