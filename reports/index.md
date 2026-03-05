@@ -92,13 +92,8 @@ function filterReports(category) {
     cards.forEach(card => {
         if (category === 'all' || card.dataset.category === category) {
             card.style.display = 'block';
-            card.style.opacity = '1';
-            card.style.pointerEvents = 'auto';
         } else {
-            card.style.display = 'block';
-            card.style.opacity = '0';
-            card.style.pointerEvents = 'none';
-            card.style.cursor = 'default';
+            card.style.display = 'none';
         }
     });
 }
