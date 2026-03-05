@@ -57,13 +57,13 @@ lang: en
     </div>
     <div class="reports-grid">
         <!-- Card 1: Celta Vigo -->
-        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card">
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenPassNetwork" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Team Analysis</span>
-                <h3>Celta Vigo - Offensive Analysis</h3>
+                <h3>LeverKusen Red de pases - Offensive Analysis</h3>
                 <div class="report-meta">
                     <span>Premier League 24/25</span><span>•</span><span>Jan 2026</span>
                 </div>
