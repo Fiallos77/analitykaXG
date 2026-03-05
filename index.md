@@ -26,7 +26,7 @@ lang: en
         </div>
     </div>
 </section>
-<!-- STATS BAR -->
+<!-- STATS BAR 
 <div class="stats-bar">
     <div class="stat-item">
         <span class="stat-number">25+</span>
@@ -42,7 +42,7 @@ lang: en
     </div>
 </div>
 <!-- ABOUT SECTION -->
-<section class="section" id="about">
+<section class="section" id="about" style="background: var(--bg-secondary); max-width: 100%; padding: 80px 40px;">
     <div class="section-header">
         <h2>Analytical Approach</h2>
         <p>Football analyst combining data and tactical observation</p>
@@ -53,7 +53,7 @@ lang: en
         Areas of work include match analysis, team performance evaluation and player 
         impact across different phases of play.
     </p>
-</section>
+</section>-->
 
 <!-- FEATURED REPORTS -->
 <section class="section" id="reports">
