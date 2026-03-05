@@ -22,11 +22,11 @@ lang: en
     </div>
 
     <!-- GRID -->
-    <div class="reports-grid" id="reports-grid" style="grid-template-columns: repeat(auto-fill, minmax(320px, 380px)); justify-content: start;">
+    <div class="reports-grid" id="reports-grid" style="display: grid; grid-template-columns: repeat(3, 320px); gap: 32px; justify-content: start;">
 
         <!-- Card: Celta Vigo -->
         <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card" data-category="team">
-            <div class="report-thumbnail">
+            <div class="report-thumbnail" style="height: 140px;">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
             </div>
             <div class="report-content">
@@ -42,7 +42,7 @@ lang: en
 
         <!-- Card: Bayer Leverkusen -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match">
-            <div class="report-thumbnail">
+            <div class="report-thumbnail" style="height: 140px;">
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
             <div class="report-content">
@@ -58,7 +58,7 @@ lang: en
 
         <!-- Card: Coming Soon - Players -->
         <a href="#" class="report-card" data-category="player">
-            <div class="report-thumbnail">
+            <div class="report-thumbnail" style="height: 140px;">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
             </div>
             <div class="report-content">
