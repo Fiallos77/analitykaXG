@@ -55,9 +55,18 @@ lang: en
         <h2>Latest Analysis</h2>
         <p>Tactical reports based on proprietary expected goals models and spatial analysis</p>
     </div>
+
+    <!-- FILTROS -->
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:40px;">
+        <button onclick="filterReports('all')" id="filter-all" style="padding:10px 24px; border-radius:999px; border:none; background:var(--accent-cyan); color:var(--bg-primary); font-weight:700; cursor:pointer; font-size:14px;">All</button>
+        <button onclick="filterReports('team')" id="filter-team" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px;">Teams</button>
+        <button onclick="filterReports('match')" id="filter-match" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px;">Matches</button>
+        <button onclick="filterReports('player')" id="filter-player" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px;">Players</button>
+    </div>
+
     <div class="reports-grid">
-       <!-- Card 1: Celta Vigo - TU NUEVO REPORTE -->
-        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card">
+        <!-- Card 1: Celta Vigo -->
+        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card" data-category="team">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
             </div>
@@ -73,14 +82,11 @@ lang: en
                     Shot map analysis showing 1.61 xG from 7 shots with 124% conversion rate. 
                     Central progression and clinical finishing breakdown.
                 </p>
-                <span class="report-link">
-                    Read full analysis
-                    <span>→</span>
-                </span>
+                <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 2: Bayer vs Leverkusen  -->
-        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
+        <!-- Card 2: Bayer vs Bayern -->
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
@@ -95,34 +101,48 @@ lang: en
                 <p class="report-excerpt">
                     An in-depth study of Xabi Alonso's finishing zone dominance. Using advanced xG Flow models to analyze how Leverkusen achieved statistical parity against the reigning champions at the Allianz Arena.
                 </p>
-                <span class="report-link">
-                    Read full analysis
-                    <span>→</span>
-                </span>
+                <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
         <!-- Card 3: Coming Soon -->
-        <a href="#" class="report-card">
+        <a href="#" class="report-card" data-category="player">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
             </div>
             <div class="report-content">
                 <span class="report-tag">Player Scouting</span>
                 <h3>Coming Soon</h3>
-                <div class="report-meta">
-                    <span>Individual Analysis</span>
-                </div>
-                <p class="report-excerpt">
-                    Upcoming player analysis with comparative radar and heatmaps.
-                </p>
-                <span class="report-link">
-                    Coming soon
-                    <span>→</span>
-                </span>
+                <div class="report-meta"><span>Individual Analysis</span></div>
+                <p class="report-excerpt">Upcoming player analysis with comparative radar and heatmaps.</p>
+                <span class="report-link">Coming soon <span>→</span></span>
             </div>
         </a>
-     </div>
+    </div>
 </section>
+
+<script>
+function filterReports(category) {
+    const cards = document.querySelectorAll('.report-card');
+    const buttons = document.querySelectorAll('[id^="filter-"]');
+    
+    buttons.forEach(btn => {
+        btn.style.background = 'transparent';
+        btn.style.color = 'var(--text-secondary)';
+        btn.style.borderColor = 'var(--border-color)';
+    });
+    document.getElementById('filter-' + category).style.background = 'var(--accent-cyan)';
+    document.getElementById('filter-' + category).style.color = 'var(--bg-primary)';
+    document.getElementById('filter-' + category).style.borderColor = 'var(--accent-cyan)';
+
+    cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+}
+</script>
 
 <!-- METHODOLOGY 
 <section class="section" id="methodology">
