@@ -120,8 +120,13 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
             Leverkusen’s performance relied on attacking efficiency rather than shot volume.
             Despite Bayern generating more attempts overall, Leverkusen consistently reached central shooting zones and created a similar level of expected goals through fewer but higher-quality chances.
         </p>
-        <p style="margin-top: 16px;">
-            <strong>Key Insight:</strong> Bayern's build-up relies heavily on the distribution of Upamecano and Kim Min-jae. Applying targeted pressure on these first-phase passes could force longer progressions and potentially reduce Bayern’s ability to generate structured high-xG chances.
+        <p>
+            <strong>Analyst Insight:</strong> Bayern generated higher shot volume, but many attempts came from wider or deeper positions. 
+            Leverkusen created fewer chances but accessed central shooting zones more consistently.
+        </p>
+        <p>
+            <strong>Tactical Recommendation:</strong> Bayern’s build-up relies heavily on their central defenders to initiate progression. 
+            Targeted pressure on the first build-up phase could force longer passes and reduce their ability to construct structured attacks.
         </p>
     </div>
  <!-- Analyst's Note: Efficiency vs. Volume -->
