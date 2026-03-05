@@ -43,6 +43,36 @@ lang: en
         <span class="stat-label">Tech Stack</span>
     </div>
 </div>
+<!-- ABOUT SECTION -->
+<section class="section" id="about">
+    <div class="section-header">
+        <h2>About</h2>
+        <p>Football analyst combining data and tactical observation</p>
+    </div>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>
+                I'm a football data analyst focused on turning raw match data into 
+                tactical insights. My work combines Python-based xG modeling, spatial 
+                analysis, and video observation to understand how teams create and 
+                concede opportunities.
+            </p>
+            <p>
+                With experience across 10+ leagues and 25+ published reports, I build 
+                custom analytical frameworks for clubs, agencies, and scouting departments 
+                looking for an edge beyond traditional stats.
+            </p>
+        </div>
+        <div class="about-tags">
+            <span class="report-tag">xG Modeling</span>
+            <span class="report-tag">Spatial Analysis</span>
+            <span class="report-tag">Python</span>
+            <span class="report-tag">StatsBomb</span>
+            <span class="report-tag">Tactical Scouting</span>
+            <span class="report-tag">Video Analysis</span>
+        </div>
+    </div>
+</section>
 
 <!-- FEATURED REPORTS -->
 <section class="section" id="reports">
