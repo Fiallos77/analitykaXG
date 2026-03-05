@@ -43,20 +43,18 @@ lang: en
         <span class="stat-label">Tech Stack</span>
     </div>
 </div>
-<!-- ABOUUT SECTION -->
+<!-- ABOUT SECTION -->
 <section class="section" id="about">
     <div class="section-header">
         <h2>About</h2>
         <p>Football analyst combining data and tactical observation</p>
     </div>
-    <div class="about-grid">
-        <div class="about-text">
-            <p>
-                Football performance analysis combining data, tactical observation and spatial metrics to interpret how teams and players create and concede advantages on the pitch.
-                Areas of work include match analysis, team performance evaluation and player impact across different phases of play.
-            </p>
-        </div>
-    </div>
+    <p style="text-align: justify; color: var(--text-secondary); font-size: 16px; line-height: 1.8; max-width: 700px; margin: 0 auto;">
+        Football performance analysis combining data, tactical observation and spatial metrics 
+        to interpret how teams and players create and concede advantages on the pitch. 
+        Areas of work include match analysis, team performance evaluation and player 
+        impact across different phases of play.
+    </p>
 </section>
 
 <!-- FEATURED REPORTS -->
