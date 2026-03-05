@@ -24,9 +24,9 @@ lang: en
 <div class="executive-summary">
     <h2>🎯 Executive Summary</h2>
     <ul class="key-insights">
-        <li>Positional Rigidity: Gran densidad en el bloque central (Xaka-Andrich) que asegura la posesión pero ralentiza la progresión.</li>
-        <li>Final Third Isolation: Desconexión detectada entre el núcleo creativo y la referencia ofensiva (Boniface), resultando en ataques aislados</li>
-        <li>U-Shaped Circulation: Tendencia al pase lateral entre centrales, evitando pases filtrados que rompan líneas.</li>
+        <li>Leverkusen’s pass network highlights a strong central circulation involving Tapsoba, Tah, Xhaka and Andrich.</li>
+        <li>Tapsoba and Xhaka appear as the main distributors in possession, recording the highest number of successful passes before the first substitution.</li>
+        <li>The average positions show a compact central structure, while wide players maintain width to stretch the pitch.</li>
     </ul>
 </div>
  <!-- Stats Comparison -->
@@ -78,8 +78,8 @@ lang: en
     <div class="content-section">
         <h2>Match Context</h2>
         <p>
-            This Bundesliga matchup at the Allianz Arena tested Bayer Leverkusen’s ability to compete against Bayern Munich’s territorial dominance.
-While Bayern controlled possession for long periods, Leverkusen relied on vertical progression and quick transitions to generate high-quality chances.
+            This report examines Bayer Leverkusen’s passing structure during their Bundesliga match against Werder Bremen in the 2023/24 season.
+            To capture the team’s initial tactical organization, the analysis focuses exclusively on successful passes before the first substitution. This allows us to observe the passing structure of the starting eleven during the early phases of the match.
         </p>
     </div>
 <!-- Visualization 1: Shot Map -->
@@ -89,35 +89,63 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
             <strong>Figure 1: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
         </p>
     </div>
- <!-- Section 2.1: Threat Windows -->
+ <!-- Section 2.1: Threat Windows --> 
+    <!-- Visualization 1: Red de pases1 -->
+    <div class="visualization">
+        <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="Shot Map Bayern Munich vs Leverkusen">
+        <p class="viz-caption">
+            <strong>Figure 1: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+        </p>
+    </div>
     <div class="content-section">
-        <h3>Tactical Analysis: Shot Map & Efficiency</h3>
-        <p>
-            The shot map reveals a clear contrast in attacking structure. Bayern produced a higher number of attempts, but many of them originated from wider or deeper locations.
-            Leverkusen generated fewer shots overall but consistently accessed central areas inside the penalty box, leading to higher average shot quality.
+        <h3>Pass Network & Key Influencers</h3>
+        <p> 
+            The pass network highlights the primary passing relationships within Leverkusen’s build-up structure.
+            Several strong connections appear in central areas of the pitch, particularly between Tah, Andrich, Boniface and Xhaka. These players form the core of the team’s circulation, suggesting that progression often occurred through central combinations.
+            The influence table reinforces this observation. Tapsoba recorded the highest number of successful passes (44), followed closely by Xhaka (43) and Tah (39). This indicates that the defensive line and central midfielders were heavily involved in controlling possession during this phase of the match.
+            In total, Leverkusen completed 272 successful passes before the first substitution, illustrating a sustained phase of controlled circulation.
         </p>    
     </div>
-<!-- Section 1: Match 2 -->
-    <div class="content-section">
-         <h2>Match Momentum & xG Evolution</h2>
-         <p>
-             The xG flow shows Bayern generating early attacking pressure during the opening phase of the match.
-             Leverkusen gradually balanced the attacking output, producing several high-value opportunities during transitional phases in the middle stages of the game.
-        </p>
-   </div>
- <!-- Visualization 2: XG -->
+    <!-- Section 2 --> 
+    <!-- Visualization 2: Red de pases2 -->
     <div class="visualization">
-        <img src="{{ site.baseurl }}/assets/images/xg_flow_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
+        <img src="{{ site.baseurl }}/assets/images/2_average_positions.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 2:</strong> Cumulative xG timeline showing the evolution of attacking threat during the match. Bayern generated early pressure, while Leverkusen’s chances mainly appeared during transitional phases in the middle stages of the game.
+            <strong>Figure 2: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
         </p>
+    </div>
+    <div class="content-section">
+        <h3>Average Positions & Team Shape</h3>
+        <p> 
+            The average positions provide insight into Leverkusen’s spatial organization during possession.
+            The visualization shows a compact cluster of players in central midfield areas, particularly around the center circle. This suggests that the team prioritized central control to facilitate short passing combinations.
+            At the same time, players such as Tella and Adli appear positioned wider and slightly higher on the pitch, providing width and stretching the opposition’s defensive shape.
+            The defensive line, led by Tapsoba and Tah, remains relatively advanced, supporting circulation and helping maintain territorial control.
+        </p>    
+    </div>
+    <!-- Section 3 -->
+    <!-- Visualization 1: Red de pases3 -->
+    <div class="visualization">
+        <img src="{{ site.baseurl }}/assets/images/3_xhaka_pass_map.png" alt="Shot Map Bayern Munich vs Leverkusen">
+        <p class="viz-caption">
+            <strong>Figure 3: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+        </p>
+    </div>
+    <div class="content-section">
+        <h3>Individual Analysis – Granit Xhaka</h3>
+        <p> 
+            This pass map illustrates Granit Xhaka’s distribution during the analyzed phase of the match.
+            The visualization highlights the direction and location of his successful passes, revealing how he contributed to maintaining circulation in midfield areas.
+            Many of his passes originate around central midfield zones, reinforcing his role as a key connector between defensive build-up and more advanced phases of play.
+            The map also shows several forward-oriented passes, suggesting attempts to progress possession into higher areas once central control had been established.
+        </p>    
     </div>
     <!-- Conclusion -->
     <div class="conclusion-box">
-        <h3>💡 Tactical Conclusion</h3>
+        <h3>💡 Tactical Insignt</h3>
         <p style="margin-bottom:16px;">
-            Leverkusen’s performance relied on attacking efficiency rather than shot volume.
-            Despite Bayern generating more attempts overall, Leverkusen consistently reached central shooting zones and created a similar level of expected goals through fewer but higher-quality chances.
+            Taken together, the three visualizations suggest that Leverkusen’s possession structure relied heavily on central connectivity.The defensive line and central midfielders handled most of the circulation, while wide players provided positional width to stretch the pitch.
+            Within this structure, Granit Xhaka played an important role in linking phases of possession and maintaining the rhythm of the team’s build-up.
         </p>
         <p style="margin-bottom:16px;">
             <strong>Insight:</strong> Bayern produced more shots overall, but many attempts came from wider or deeper positions. 
