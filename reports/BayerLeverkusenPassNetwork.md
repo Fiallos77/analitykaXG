@@ -1,7 +1,7 @@
 ---
 layout: report
-title: Bayer Leverkusen: Structural Connectivity & Pass Network Analysis
-description: Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models.
+title: "Bayer Leverkusen: Structural Connectivity & Pass Network Analysis"
+description: "Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models."
 category: Post-Match Analysis
 competition: Bundesliga 23/24
 date: 2024-03-03
