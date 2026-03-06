@@ -35,11 +35,11 @@ lang: en
         <div class="team-name">Métrica</div>
         <div class="stat-row">
             <span class="stat-value">Pass Accuracy</span>
-            <span class="stat-label">Successful Pass Rate</span>
+            <span class="stat-label"></span>
         </div>
         <div class="stat-row">
             <span class="stat-value">Progressive Passes</span>
-            <span class="stat-label">Ball Progression</span>
+            <span class="stat-label"></span>
         </div>
         <div class="stat-row">
             <span class="stat-value">Passes to Final Third</span>
@@ -47,7 +47,7 @@ lang: en
         </div>
         <div class="stat-row">
             <span class="stat-value">Avg. Pass Distance</span>
-            <span class="stat-label">Mean Distance</span>
+            <span class="stat-label"></span>
         </div>
     </div>
     <div class="divider"></div>
