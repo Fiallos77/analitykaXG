@@ -79,7 +79,7 @@ lang: en
         <h2>Match Context</h2>
         <p>
             This report examines Bayer Leverkusen’s passing structure during their Bundesliga match against Werder Bremen in the 2023/24 season.
-            To capture the team’s initial tactical organization, the analysis focuses exclusively on successful passes before the first substitution. This allows us to observe the passing structure of the starting eleven during the early phases of the match.
+            To capture the team’s initial tactical organization, the analysis focuses exclusively on successful passes before the first substitution. This allows us to observe the passing structure of the starting eleven during the early phases of the match..
         </p>
     </div>
  <!-- Section 2.1: Threat Windows --> 
@@ -87,7 +87,8 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 1: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+            <strong>Figure 1: </strong>Pass network of Bayer Leverkusen showing successful passing relationships before the first substitution.
+            Node size represents number of completed passes, while line thickness indicates the frequency of connections between players. Only connections with at least six passes are displayed.
         </p>
     </div>
     <div class="content-section">
@@ -104,7 +105,8 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/2_average_positions.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 2: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+            <strong>Figure 2: </strong>Average on-ball positions based on successful passes.
+            Marker size represents passing involvement, providing a snapshot of Leverkusen’s spatial structure during possession.
         </p>
     </div>
     <div class="content-section">
@@ -121,7 +123,8 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/3_xhaka_pass_map.png" alt="Shot Map Bayern Munich vs Leverkusen">
         <p class="viz-caption">
-            <strong>Figure 3: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
+            <strong>Figure 3: </strong>Successful passes completed by Granit Xhaka during the analyzed phase.
+            Arrows represent pass direction and length, highlighting his role in connecting midfield circulation.
         </p>
     </div>
     <div class="content-section">
