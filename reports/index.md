@@ -46,7 +46,7 @@ lang: en
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
             <div class="report-content">
-                <span class="report-tag">Post-Match Analysis</span>
+                <span class="report-tag">Match Analysis</span>
                 <h3>Bayer Leverkusen: Tactical xG Breakdown</h3>
                 <div class="report-meta">
                     <span>Bundesliga 23/24</span><span>•</span><span>Marzo 2026</span>
