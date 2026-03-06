@@ -39,15 +39,15 @@ lang: en
         </div>
         <div class="stat-row">
             <span class="stat-value">Progressive Passes</span>
-            <span class="stat-label">Forward Progression</span>
+            <span class="stat-label">Ball Progression</span>
         </div>
         <div class="stat-row">
             <span class="stat-value">Passes to Final Third</span>
-            <span class="stat-label">Entries into Final Third</span>
+            <span class="stat-label"></span>
         </div>
         <div class="stat-row">
             <span class="stat-value">Avg. Pass Distance</span>
-            <span class="stat-label">Average Distance per Pass</span>
+            <span class="stat-label">Mean Distance</span>
         </div>
     </div>
     <div class="divider"></div>
@@ -131,9 +131,7 @@ lang: en
         <h3>Individual Analysis – Granit Xhaka</h3>
         <p> 
             This pass map illustrates Granit Xhaka’s distribution during the analyzed phase of the match.
-            The visualization highlights the direction and location of his successful passes, revealing how he contributed to maintaining circulation in midfield areas.
-            Many of his passes originate around central midfield zones, reinforcing his role as a key connector between defensive build-up and more advanced phases of play.
-            The map also shows several forward-oriented passes, suggesting attempts to progress possession into higher areas once central control had been established.
+            The visualization highlights the direction and location of his successful passes, showing how he contributed to maintaining circulation in central midfield areas.Several forward-oriented passes are also visible, indicating attempts to progress possession into more advanced zones.
         </p>    
     </div>
     <!-- Conclusion -->
