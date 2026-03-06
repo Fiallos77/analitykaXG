@@ -59,7 +59,7 @@ lang: en
         <!-- Card 1: LeverKUsen Campeon BundesLiga vs Werbem -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenPassNetwork" class="report-card">
             <div class="report-thumbnail">
-                <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="Celta Vigo Shot Map">
+                <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="B.Leverkusen PassNetwork">
             </div>
             <div class="report-content">
                 <span class="report-tag">Team Analysis</span>
