@@ -82,13 +82,6 @@ lang: en
             To capture the team’s initial tactical organization, the analysis focuses exclusively on successful passes before the first substitution. This allows us to observe the passing structure of the starting eleven during the early phases of the match.
         </p>
     </div>
-<!-- Visualization 1: Shot Map -->
-    <div class="visualization">
-        <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Shot Map Bayern Munich vs Leverkusen">
-        <p class="viz-caption">
-            <strong>Figure 1: </strong>Shot map showing the spatial distribution of Leverkusen’s attempts. Most shots originated from central areas inside the penalty box, highlighting a preference for higher probability opportunities rather than long-range attempts.
-        </p>
-    </div>
  <!-- Section 2.1: Threat Windows --> 
     <!-- Visualization 1: Red de pases1 -->
     <div class="visualization">
