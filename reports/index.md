@@ -25,17 +25,17 @@ lang: en
     <div class="reports-grid" id="reports-grid" style="display: grid; grid-template-columns: repeat(3, 320px); gap: 32px; justify-content: start;">
 
         <!-- Card: Celta Vigo -->
-        <a href="{{ site.baseurl }}/reports/celta-vigo-offensive-analysis-2025" class="report-card" data-category="team">
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenPassNetwork" class="report-card" data-category="team">
             <div class="report-thumbnail" style="height: 140px;">
-                <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
+                <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="B.Leverkusen PassNetwork">
             </div>
             <div class="report-content">
                 <span class="report-tag">Team Analysis</span>
-                <h3>Celta Vigo - Offensive Analysis</h3>
+                <h3>Leverkusen Passing Network – Possession Structure</h3>
                 <div class="report-meta">
-                    <span>Premier League 24/25</span><span>•</span><span>Jan 2026</span>
+                    <span>Bundesliga 23/24</span><span>•</span><span>March 2024</span>
                 </div>
-                <p class="report-excerpt">Shot map analysis showing 1.61 xG from 7 shots with 124% conversion rate. Central progression and clinical finishing breakdown.</p>
+                <p class="report-excerpt">Pass network and spatial structure analysis showing how Leverkusen organized possession and circulation before the first substitution.</p>
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
