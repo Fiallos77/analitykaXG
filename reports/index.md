@@ -17,7 +17,7 @@ lang: en
     <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:40px;">
         <button onclick="filterReports('all')" id="filter-all" style="padding:10px 24px; border-radius:999px; border:none; background:var(--accent-cyan); color:var(--bg-primary); font-weight:700; cursor:pointer; font-size:14px; transition: all 0.3s;">All</button>
         <button onclick="filterReports('team')" id="filter-team" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Teams</button>
-        <button onclick="filterReports('match')" id="filter-match" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Matches</button>
+        <button onclick="filterReports('match-analysis')" id="filter-match" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Matches</button>
         <button onclick="filterReports('player')" id="filter-player" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Players</button>
     </div>
 
@@ -41,7 +41,7 @@ lang: en
         </a>
 
         <!-- Card: Bayer Leverkusen -->
-        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match">
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match-analysis">
             <div class="report-thumbnail" style="height: 140px;">
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
