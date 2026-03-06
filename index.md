@@ -56,22 +56,22 @@ lang: en
         <p>Tactical reports based on proprietary expected goals models and spatial analysis</p>
     </div>
     <div class="reports-grid">
-        <!-- Card 1: Celta Vigo -->
+        <!-- Card 1: LeverKUsen Campeon BundesLiga vs Werbem -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenPassNetwork" class="report-card">
             <div class="report-thumbnail">
-                <img src="{{ site.baseurl }}/assets/images/celta-vigo-shot-map.png" alt="Celta Vigo Shot Map">
+                <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="Celta Vigo Shot Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Team Analysis</span>
-                <h3>LeverKusen Red de pases - Offensive Analysis</h3>
+                <h3>Leverkusen Passing Network – Possession Structure</h3>
                 <div class="report-meta">
-                    <span>Premier League 24/25</span><span>•</span><span>Jan 2026</span>
+                    <span>Bundesliga 23/24</span><span>•</span><span>March 2024</span>
                 </div>
-                <p class="report-excerpt">Shot map analysis showing 1.61 xG from 7 shots with 124% conversion rate. Central progression and clinical finishing breakdown.</p>
+                <p class="report-excerpt">Pass network and spatial structure analysis showing how Leverkusen organized possession and circulation before the first substitution.</p>
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 2: Bayer vs Bayern -->
+        <!-- Card 2: Bayer vs Bayern Leverkusen -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
