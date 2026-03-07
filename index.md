@@ -89,7 +89,7 @@ lang: en
         <!-- Card 3: Argentina vs Francea-->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
             <div class="report-thumbnail">
-                <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
+                <img src="{{ site.baseurl }}/assets/images/heatmap_argentina.png" alt="Leverkusen Shot Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Match Analysis</span>
