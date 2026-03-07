@@ -86,16 +86,16 @@ lang: en
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card: Argentina vs France -->
-        <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card" data-category="match">
-            <div class="report-thumbnail" style="height: 140px;">
-                <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Heat Map">
+        <!-- Card 3: Argentina vs Francea-->
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card">
+            <div class="report-thumbnail">
+                <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Match Analysis</span>
                 <h3>Argentina vs France: Activity Heatmaps</h3>
                 <div class="report-meta">
-                    <span>World Cup 2022 Final</span><span>•</span><span>Dec 2022</span>
+                    <span>FIFA World Cup 2022 Final</span><span>•</span><span>Dic 2022</span>
                 </div>
                 <p class="report-excerpt">Spatial analysis of Argentina and France during the 2022 World Cup Final, using event density heatmaps to explore team activity and Lionel Messi's influence zones.</p>
                 <span class="report-link">Read full analysis <span>→</span></span>
