@@ -113,8 +113,8 @@ lang: en
                 <p class="report-excerpt">Upcoming player analysis with comparative radar and heatmaps.</p>
                 <span class="report-link">Coming soon <span>→</span></span>
             </div>
-        </a>
-    </div> -->
+        </a> -->
+    </div> 
 
     <!-- BOTÓN VER TODOS -->
     <div style="text-align: center; margin-top: 48px;">
