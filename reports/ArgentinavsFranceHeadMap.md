@@ -88,7 +88,7 @@ lang: en
             </div>
             <div>
                 <img src="{{ site.baseurl }}/assets/images/heatmap_francia.png" alt="Imagen derecha">
-                <p class="viz-caption"><strong>Figure 2: </strong>France Head Map.</p>
+                <p class="viz-caption"><strong>Figure 2: </strong>France spatial activity distribution..</p>
             </div>
         </div>
     </div>
