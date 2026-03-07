@@ -153,7 +153,7 @@ lang: en
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Model</span>
-            <span>xG Flow model</span>
+            <span>Pass Network & Positional Structure</span>
         </div>
         <div class="metadata-item">
             <span class="metadata-label">Tools</span>
