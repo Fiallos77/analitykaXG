@@ -75,39 +75,24 @@ lang: en
         <h2>Match Context</h2>
         <p>
             This report analyzes spatial activity during the final of the 2022 FIFA World Cup between Argentina and France. Using event data from StatsBomb, heatmaps are used to visualize territorial occupation and player influence throughout the match.
+            All visualizations are based on event locations recorded during the match.
         </p>
     </div>
-  <div class="content-section">
-        <h3>Argentina Territorial Control</h3>
-        <p> 
-            Argentina's heatmap reveals sustained activity in advanced areas, particularly along the left side of the pitch. This pattern reflects the team's ability to progress possession through central midfield and overload wide zones during attacking phases.
-        </p>    
-  </div>
- <!-- Section 2.1: Threat Windows --> 
-    <!-- Visualization 1: Mapa argentina -->
+    <!-- Section 1: -->
     <div class="visualization">
-        <img src="{{ site.baseurl }}/assets/images/heatmap_argentina.png" alt="Argentina Head Map">
-        <p class="viz-caption">
-            <strong>Figure 1: </strong>Pass network of Bayer Leverkusen showing successful passing relationships before the first substitution.
-            Node size represents number of completed passes, while line thickness indicates the frequency of connections between players. Only connections with at least six passes are displayed.
-        </p>
+        <h3>Territorial Control</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div>
+                <img src="{{ site.baseurl }}/assets/images/heatmap_argentina.png" alt="Argentina Head Map">
+                <p class="viz-caption"><strong>Figure 1: </strong>Argentina territorial activity during the match.</p>
+            </div>
+            <div>
+                <img src="{{ site.baseurl }}/assets/images/heatmap_francia.png" alt="Imagen derecha">
+                <p class="viz-caption"><strong>Figure 2: </strong>France Head Map.</p>
+            </div>
+        </div>
     </div>
-    <!-- Section 2 --> 
-    <!-- Visualization 2: France shot map -->
-    <div class="visualization">
-      <h3>France Activity Map</h3>
-        <img src="{{ site.baseurl }}/assets/images/heatmap_francia.png" alt="France Head Map">
-        <p class="viz-caption">
-            <strong>Figure 2: </strong>Average on-ball positions based on successful passes.
-            Marker size represents passing involvement, providing a snapshot of Leverkusen’s spatial structure during possession.
-        </p>
-    </div>
-    <div class="content-section">
-        <p> 
-            France’s spatial activity appears more dispersed and deeper in their own half. The map suggests limited territorial progression during large phases of the match, with most actions concentrated in defensive and middle zones.
-        </p>    
-    </div>
-    <!-- Section 3 -->
+    <!-- Section 2 -->
     <!-- Visualization 1: Messi Shot map -->
     <div class="visualization">
       <h3>Messi Influence Map</h3>
