@@ -80,7 +80,7 @@ lang: en
     </div>
     <!-- Section 1: -->
     <div class="content-section">
-        <h2>Territorial Control</h2>   
+        <h3>Territorial Control</h3>   
     </div>
     <div class="visualization">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
@@ -95,9 +95,11 @@ lang: en
         </div>
     </div>
     <!-- Section 2 -->
+    <div class="content-section">
+        <h3>Messi Influence Map</h3>   
+    </div>
     <!-- Visualization 1: Messi Shot map -->
     <div class="visualization">
-      <h3>Messi Influence Map</h3>
         <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Head Map">
         <p class="viz-caption">
             <strong>Figure 3: </strong>Successful passes completed by Granit Xhaka during the analyzed phase.
