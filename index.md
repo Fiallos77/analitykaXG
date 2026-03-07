@@ -86,7 +86,22 @@ lang: en
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 3: Coming Soon -->
+        <!-- Card 3: Bayer vs Bayern Leverkusen -->
+        <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card">
+            <div class="report-thumbnail">
+                <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Head Map">
+            </div>
+            <div class="report-content">
+                <span class="report-tag">Match Analysis</span>
+                <h3>Messi</h3>
+                <div class="report-meta">
+                    <span>Bundesliga 23/24</span><span>•</span><span>Marzo 2026</span>
+                </div>
+                <p class="report-excerpt">An in-depth study of Xabi Alonso's finishing zone dominance using advanced xG Flow models at the Allianz Arena.</p>
+                <span class="report-link">Read full analysis <span>→</span></span>
+            </div>
+        </a>
+        <!-- Card 4: Coming Soon -->
         <a href="#" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
