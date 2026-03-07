@@ -25,49 +25,6 @@ lang: en
       <p>This report examines spatial activity patterns during the 2022 FIFA World Cup Final between Argentina and France. Using event density heatmaps, the analysis highlights how both teams occupied the pitch and where Lionel Messi exerted the greatest influence during attacking phases.
       </p>
 </div>
- <!-- Stats Comparison -->
- <div class="stats-comparison">
-    <div class="team-stats">
-        <div class="team-name">Métrica</div>
-        <div class="stat-row">
-            <span class="stat-value">Pass Accuracy</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">Progressive Passes</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">Passes to Final Third</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">Avg. Pass Distance</span>
-            <span class="stat-label"></span>
-        </div>
-    </div>
-    <div class="divider"></div>
-    <div class="team-stats">
-        <div class="team-name">BAYER LEVERKUSEN</div>
-        <div class="stat-row">
-            <span class="stat-value">89%</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">32</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">41</span>
-            <span class="stat-label"></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-value">17.4m</span>
-            <span class="stat-label"></span>
-        </div>
-    </div>
-</div>
-
 <!-- CONTENT SECTIONS -->
 <div class="report-content">
 <!-- Section 1: Match Context -->
