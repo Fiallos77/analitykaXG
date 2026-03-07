@@ -22,7 +22,7 @@ lang: en
 <!-- EXECUTIVE SUMMARY -->
 <div class="executive-summary">
     <h2>🎯 Executive Summary</h2>
-      <p>Argentina controlled the spatial dynamics of the final through strong left-sided activity and central midfield circulation. Heatmap analysis highlights sustained territorial presence in advanced zones, while France showed limited progression until the final stages of the match. Lionel Messi’s activity map further reveals his role as the central connector of Argentina’s attacking structure.
+      <p>This report examines spatial activity patterns during the 2022 FIFA World Cup Final between Argentina and France. Using event density heatmaps, the analysis highlights how both teams occupied the pitch and where Lionel Messi exerted the greatest influence during attacking phases.
       </p>
 </div>
  <!-- Stats Comparison -->
@@ -74,8 +74,14 @@ lang: en
     <div class="content-section">
         <h2>Match Context</h2>
         <p>
-            This report analyzes spatial activity during the final of the 2022 FIFA World Cup between Argentina and France. Using event data from StatsBomb, heatmaps are used to visualize territorial occupation and player influence throughout the match.
-            All visualizations are based on event locations recorded during the match.
+            The analysis is based on StatsBomb open event data from the 2022 FIFA World Cup Final.
+            Heatmaps represent the spatial distribution of key attacking actions.
+            For team maps:
+            <ul class="key-insights">
+                <li>Argentina: Pass, Carry, Shot events</li>
+                <li>France: Pass, Carry events</li>
+            </ul>
+            For the player analysis, Messi’s actions include passes, carries, shots and dribbles.
         </p>
     </div>
     <!-- Section 1: -->
@@ -94,6 +100,13 @@ lang: en
             </div>
         </div>
     </div>
+    <div class="content-section">
+        <p>The heatmaps illustrate how each team occupied attacking territory during the match.
+            Argentina shows strong activity in advanced areas, particularly through the left half-space and central attacking lanes.
+            This pattern suggests sustained progression into the final third and frequent involvement around the edge of the penalty area.
+            France’s activity is more concentrated around midfield zones, with notable presence on the left side during build-up phases.
+            Compared to Argentina, their density appears deeper, indicating longer phases of circulation before entering advanced areas.</p>   
+    </div>
     <!-- Section 2 -->
     <div class="content-section">
         <h3>Messi Influence Map</h3>   
@@ -107,14 +120,20 @@ lang: en
     </div>
     <div class="content-section">
         <p> 
-            Lionel Messi’s activity map highlights his constant involvement across central and left-sided zones. The visualization reflects his role as the primary connector between midfield circulation and attacking phases, frequently dropping deeper to participate in build-up before progressing play forward.
+            Messi’s influence map highlights his spatial role throughout Argentina’s attacking phases.
+            The highest density appears in the right half-space between midfield and the penalty area, a zone frequently used to connect build-up with final third actions.
+            His activity also extends into deeper midfield areas, indicating involvement in progression rather than remaining exclusively in advanced positions.
+            This spatial distribution reflects Messi’s hybrid role: both a creator in deeper zones and a decisive presence near the attacking third.
         </p>    
     </div>
     <!-- Conclusion -->
     <div class="conclusion-box">
-        <h3>💡 Tactical Insight</h3>
+        <h3>💡 Tactical Interpretation</h3>
         <p style="margin-bottom:16px;">
-            The spatial patterns suggest that Argentina controlled the territorial dynamics of the final through structured possession and strong central connectivity. Messi’s positioning between midfield and attacking zones provided a consistent link for ball progression, allowing Argentina to sustain pressure in advanced areas while maintaining control of possession phases.
+            Together, the heatmaps reveal a clear structural contrast between the two teams.
+            Argentina’s activity is more advanced and concentrated around attacking corridors, suggesting greater territorial progression during key phases of play.
+            France’s distribution appears deeper and more spread across midfield zones, indicating a greater share of activity during transitional or build-up phases.
+            Within this structure, Messi’s positional influence emerges primarily in the right half-space, linking central progression with final third actions.
         </p>
     </div>
 </div>
