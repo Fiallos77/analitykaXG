@@ -1,10 +1,10 @@
 ---
 layout: report
-title: "Bayer Leverkusen: Structural Connectivity & Pass Network Analysis"
-description: "Tactical breakdown of Bundesliga's high-stake draw using advanced xG Shot Maps and Danger Flow models."
-category: Post-Match Analysis
-competition: Bundesliga 23/24
-date: 2024-03-03
+title: "Argentina vs France: Spatial Control & Heatmap Analysis"
+description: "Spatial analysis of the 2022 World Cup Final using activity heatmaps to examine territorial control and Lionel Messi's influence."
+category: Match Analysis
+competition: FIFA World Cup Qatar 2022
+date: 2022-12-18
 lang: en
 ---
 <!-- REPORT HERO -->
