@@ -136,18 +136,11 @@ lang: en
     </div>
     <!-- Conclusion -->
     <div class="conclusion-box">
-        <h3>💡 Tactical Insignt</h3>
+        <h3>💡 Tactical Insight</h3>
         <p style="margin-bottom:16px;">
-            Taken together, the three visualizations suggest that Leverkusen’s possession structure relied heavily on central connectivity.The defensive line and central midfielders handled most of the circulation, while wide players provided positional width to stretch the pitch.
+            Taken together, the three visualizations suggest that Leverkusen’s possession structure relied heavily on central connectivity.
+            The defensive line and central midfielders handled most of the circulation, while wide players provided positional width to stretch the pitch.
             Within this structure, Granit Xhaka played an important role in linking phases of possession and maintaining the rhythm of the team’s build-up.
-        </p>
-        <p style="margin-bottom:16px;">
-            <strong>Insight:</strong> Bayern produced more shots overall, but many attempts came from wider or deeper positions. 
-            Leverkusen generated fewer attempts but reached central shooting zones more consistently, resulting in higher average shot quality.
-        </p>
-        <p style="margin-bottom:16px;">
-            <strong>Tactical Perspective:</strong> Bayern’s build-up often begins through their central defenders. 
-            Applying targeted pressure during the first build-up phase could disrupt their progression and force longer passes, reducing their ability to construct structured attacks.
         </p>
     </div>
  <!-- Analyst's Note: Efficiency vs. Volume -->
