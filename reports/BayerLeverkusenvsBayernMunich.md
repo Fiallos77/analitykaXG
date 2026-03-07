@@ -114,7 +114,7 @@ While Bayern controlled possession for long periods, Leverkusen relied on vertic
     </div>
     <!-- Conclusion -->
     <div class="conclusion-box">
-        <h3>💡 Tactical Conclusion</h3>
+        <h3>💡 Tactical Insight</h3>
         <p style="margin-bottom:16px;">
             Leverkusen’s performance relied on attacking efficiency rather than shot volume.
             Despite Bayern generating more attempts overall, Leverkusen consistently reached central shooting zones and created a similar level of expected goals through fewer but higher-quality chances.
