@@ -79,8 +79,10 @@ lang: en
         </p>
     </div>
     <!-- Section 1: -->
+    <div class="content-section">
+        <h2>Territorial Control</h2>   
+    </div>
     <div class="visualization">
-        <h3>Territorial Control</h3>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
             <div>
                 <img src="{{ site.baseurl }}/assets/images/heatmap_argentina.png" alt="Argentina Head Map">
