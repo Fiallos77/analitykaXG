@@ -86,11 +86,11 @@ lang: en
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
             <div>
                 <img src="{{ site.baseurl }}/assets/images/heatmap_argentina.png" alt="Argentina Head Map">
-                <p class="viz-caption"><strong>Figure 1: </strong>Argentina territorial activity during the match.</p>
+                <p class="viz-caption"><strong>Figure 1: </strong>Argentina spatial activity during the match.</p>
             </div>
             <div>
                 <img src="{{ site.baseurl }}/assets/images/heatmap_francia.png" alt="Imagen derecha">
-                <p class="viz-caption"><strong>Figure 2: </strong>France spatial activity distribution..</p>
+                <p class="viz-caption"><strong>Figure 2: </strong>France activity distribution across the pitch.</p>
             </div>
         </div>
     </div>
@@ -102,8 +102,7 @@ lang: en
     <div class="visualization">
         <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Head Map">
         <p class="viz-caption">
-            <strong>Figure 3: </strong>Successful passes completed by Granit Xhaka during the analyzed phase.
-            Arrows represent pass direction and length, highlighting his role in connecting midfield circulation.
+            <strong>Figure 3: </strong>Lionel Messi influence map highlighting involvement between midfield and attacking zones.
         </p>
     </div>
     <div class="content-section">
