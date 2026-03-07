@@ -17,14 +17,14 @@ lang: en
     <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:40px;">
         <button onclick="filterReports('all')" id="filter-all" style="padding:10px 24px; border-radius:999px; border:none; background:var(--accent-cyan); color:var(--bg-primary); font-weight:700; cursor:pointer; font-size:14px; transition: all 0.3s;">All</button>
         <button onclick="filterReports('team')" id="filter-team" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Teams</button>
-        <button onclick="filterReports('match-analysis')" id="filter-match" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Matches</button>
+        <button onclick="filterReports('match')" id="filter-match" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Matches</button>
         <button onclick="filterReports('player')" id="filter-player" style="padding:10px 24px; border-radius:999px; border:1px solid var(--border-color); background:transparent; color:var(--text-secondary); font-weight:600; cursor:pointer; font-size:14px; transition: all 0.3s;">Players</button>
     </div>
 
     <!-- GRID -->
     <div class="reports-grid" id="reports-grid" style="display: grid; grid-template-columns: repeat(3, 320px); gap: 32px; justify-content: start;">
 
-        <!-- Card: Celta Vigo -->
+        <!-- Card: Leverkusen Pass Network -->
         <a href="{{ site.baseurl }}/reports/BayerLeverkusenPassNetwork" class="report-card" data-category="team">
             <div class="report-thumbnail" style="height: 140px;">
                 <img src="{{ site.baseurl }}/assets/images/1_pass_network_top.png" alt="B.Leverkusen PassNetwork">
@@ -40,8 +40,8 @@ lang: en
             </div>
         </a>
 
-        <!-- Card: Bayer Leverkusen -->
-        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match-analysis">
+        <!-- Card: Bayer Leverkusen xG -->
+        <a href="{{ site.baseurl }}/reports/BayerLeverkusenvsBayernMunich" class="report-card" data-category="match">
             <div class="report-thumbnail" style="height: 140px;">
                 <img src="{{ site.baseurl }}/assets/images/shot_map_final_leverkusen.png" alt="Leverkusen Shot Map">
             </div>
@@ -56,7 +56,23 @@ lang: en
             </div>
         </a>
 
-        <!-- Card: Coming Soon - Players -->
+        <!-- Card: Argentina vs France -->
+        <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card" data-category="match">
+            <div class="report-thumbnail" style="height: 140px;">
+                <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Heat Map">
+            </div>
+            <div class="report-content">
+                <span class="report-tag">Match Analysis</span>
+                <h3>Messi</h3>
+                <div class="report-meta">
+                    <span>World Cup 2022</span><span>•</span><span>Dec 2022</span>
+                </div>
+                <p class="report-excerpt">An in-depth study of Xabi Alonso's finishing zone dominance using advanced xG Flow models at the Allianz Arena.</p>
+                <span class="report-link">Read full analysis <span>→</span></span>
+            </div>
+        </a>
+
+        <!-- Card: Coming Soon -->
         <a href="#" class="report-card" data-category="player">
             <div class="report-thumbnail" style="height: 140px;">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
