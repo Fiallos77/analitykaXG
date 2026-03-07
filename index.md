@@ -86,7 +86,7 @@ lang: en
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 3: Bayer vs Bayern Leverkusen -->
+        <!-- Card 3: Argentina -->
         <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card">
             <div class="report-thumbnail">
                 <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Head Map">
