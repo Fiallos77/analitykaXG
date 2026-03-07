@@ -143,14 +143,6 @@ lang: en
             Within this structure, Granit Xhaka played an important role in linking phases of possession and maintaining the rhythm of the team’s build-up.
         </p>
     </div>
- <!-- Analyst's Note: Efficiency vs. Volume -->
-    <div class="conclusion-box">
-        <h3>Analyst's Note: Efficiency vs. Volume</h3>
-        <p>
-            This match illustrates how shot quality can compensate for differences in shot volume.
-            Leverkusen’s attacking structure allowed them to access central areas and generate high-value opportunities even while spending less time in possession.
-        </p>
-    </div>
 </div>
 <!-- METADATA -->
 <div class="report-metadata">
