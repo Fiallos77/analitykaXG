@@ -86,18 +86,18 @@ lang: en
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 3: Argentina -->
-        <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card">
-            <div class="report-thumbnail">
-                <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Head Map">
+        <!-- Card: Argentina vs France -->
+        <a href="{{ site.baseurl }}/reports/ArgentinavsFranceHeadMap" class="report-card" data-category="match">
+            <div class="report-thumbnail" style="height: 140px;">
+                <img src="{{ site.baseurl }}/assets/images/heatmap_messi.png" alt="Messi Heat Map">
             </div>
             <div class="report-content">
                 <span class="report-tag">Match Analysis</span>
-                <h3>Messi</h3>
+                <h3>Argentina vs France: Activity Heatmaps</h3>
                 <div class="report-meta">
-                    <span>Bundesliga 23/24</span><span>•</span><span>Marzo 2026</span>
+                    <span>World Cup 2022 Final</span><span>•</span><span>Dec 2022</span>
                 </div>
-                <p class="report-excerpt">An in-depth study of Xabi Alonso's finishing zone dominance using advanced xG Flow models at the Allianz Arena.</p>
+                <p class="report-excerpt">Spatial analysis of Argentina and France during the 2022 World Cup Final, using event density heatmaps to explore team activity and Lionel Messi's influence zones.</p>
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
