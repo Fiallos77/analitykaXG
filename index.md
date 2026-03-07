@@ -101,7 +101,7 @@ lang: en
                 <span class="report-link">Read full analysis <span>→</span></span>
             </div>
         </a>
-        <!-- Card 4: Coming Soon -->
+        <!-- Card 4: Coming Soon 
         <a href="#" class="report-card">
             <div class="report-thumbnail">
                 <div style="font-size: 64px; color: var(--accent-cyan); opacity: 0.3;">⚽</div>
@@ -114,7 +114,7 @@ lang: en
                 <span class="report-link">Coming soon <span>→</span></span>
             </div>
         </a>
-    </div>
+    </div> -->
 
     <!-- BOTÓN VER TODOS -->
     <div style="text-align: center; margin-top: 48px;">
