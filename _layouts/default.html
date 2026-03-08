@@ -28,31 +28,11 @@
                 
                 <div class="nav-right">
                     <ul class="nav-links">
-                        {% if page.lang == 'es' %}
-                            <li><a href="{{ site.baseurl }}/es#reports">Análisis</a></li>
-                            <li><a href="{{ site.baseurl }}/es#methodology">Metodología</a></li>
-                            <li><a href="{{ site.baseurl }}/es#about">Acerca de</a></li>
-                            <li><a href="mailto:analitykaxg@gmail.com">Contacto</a></li>
-                        {% else %}
-                            <li><a href="{{ site.baseurl }}/#reports">Analysis</a></li>
-                            <li><a href="{{ site.baseurl }}/reports/">Reports</a></li>
-                            <li><a href="{{ site.baseurl }}/#about">Analytical Approach</a></li>
-                            <li><a href="mailto:analitykaxg@gmail.com">Contact</a></li>
-                        {% endif %}
+                        <li><a href="{{ site.baseurl }}/#reports">Analysis</a></li>
+                        <li><a href="{{ site.baseurl }}/reports/">Reports</a></li>
+                        <li><a href="{{ site.baseurl }}/#about">Analytical Approach</a></li>
+                        <li><a href="mailto:analitykaxg@gmail.com">Contact</a></li>
                     </ul>
-
-                    <!-- Language Switcher -->
-                    <div class="language-switcher">
-                        {% if page.lang == 'es' %}
-                            <a href="{{ site.baseurl }}{{ page.url | remove: '/es' }}" class="lang-option">EN</a>
-                            <span class="lang-separator">|</span>
-                            <span class="lang-option active">ES</span>
-                        {% else %}
-                            <span class="lang-option active">EN</span>
-                            <span class="lang-separator">|</span>
-                            <a href="{{ site.baseurl }}/es{{ page.url }}" class="lang-option">ES</a>
-                        {% endif %}
-                    </div>
                 </div>
             </nav>
         </div>
@@ -70,11 +50,7 @@
                 <div class="footer-logo">
                     ANALITYKA<span class="highlight">XG</span>
                 </div>
-                {% if page.lang == 'es' %}
-                    <p class="footer-tagline">Análisis de Rendimiento Futbolístico de Élite</p>
-                {% else %}
-                    <p class="footer-tagline">Elite Football Performance Analysis</p>
-                {% endif %}
+                <p class="footer-tagline">Elite Football Performance Analysis</p>
                 
                 <div class="social-links">
                     <a href="https://twitter.com/analitykaxg" target="_blank" aria-label="Twitter">𝕏</a>
@@ -84,15 +60,9 @@
                 </div>
             </div>
             
-            {% if page.lang == 'es' %}
-                <p class="footer-copy">
-                    © 2026 analitykaXG — Construido con Python & Datos de StatsBomb
-                </p>
-            {% else %}
-                <p class="footer-copy">
-                    © 2026 analitykaXG — Built with Python & StatsBomb Data
-                </p>
-            {% endif %}
+            <p class="footer-copy">
+                © 2026 analitykaXG — Built with Python & StatsBomb Data
+            </p>
         </div>
     </footer>
 </body>
