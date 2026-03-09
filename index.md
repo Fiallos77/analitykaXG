@@ -176,8 +176,5 @@ lang: en
             Contact for Projects
             <span>→</span>
         </a>
-        <a href="#methodology" class="cta-secondary">
-            View Full Methodology
-        </a>
     </div>
 </div>
