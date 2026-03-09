@@ -10,9 +10,9 @@ lang: en
     <div class="hero-content" style="position:relative;z-index:1;width:100%;text-align:center;">
          <div class="hero-text">
             <p class="subtitle">Football Performance & Data Analyst</p>
-            <h1>Tactical Intelligence<br>Through Data</h1>
+            <h1>Football Match &<br>Tactical Analysis</h1>
             <p class="tagline">
-                Performance analysis combining data, video observation and spatial metrics to understand how teams and players create advantages on the pitch.
+                Using video and data to analyse team behaviour, tactical structures, and performance on the pitch
             </p>
             <div class="hero-cta">
                 <a href="#reports" class="cta-primary">
