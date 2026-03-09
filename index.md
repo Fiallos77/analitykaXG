@@ -53,7 +53,7 @@ lang: en
 <section class="section" id="reports">
     <div class="section-header">
         <h2>Latest Analysis</h2>
-        <p>Tactical reports based on proprietary expected goals models and spatial analysis</p>
+        <p>Recent match and tactical analysis from different competitions</p>
     </div>
     <div class="reports-grid">
         <!-- Card 1: LeverKUsen Campeon BundesLiga vs Werbem -->
