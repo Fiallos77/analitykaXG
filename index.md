@@ -166,10 +166,9 @@ lang: en
 
 <!-- CTA SECTION -->
 <div class="cta-section">
-    <h2>Need this level of analysis?</h2>
+    <h2>Need help analysing a game??</h2>
     <p>
-        Custom tactical analysis for professional clubs, 
-        representation agencies, and scouting departments.
+        I create tactical reports and video analysis for clubs, coaches, and scouting teams.
     </p>
     <div class="hero-cta">
         <a href="mailto:analitykaxg@gmail.com" class="cta-primary">
