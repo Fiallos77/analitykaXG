@@ -44,8 +44,9 @@ lang: en
         <h2>Analytical Approach</h2>
     </div>
     <p style="text-align: justify; color: var(--text-secondary); font-size: 16px; line-height: 1.8; max-width: 700px; margin: 0 auto;">
-        Football analyst combining data analysis and tactical observation to understand team performance and player impact.
-        My work explores match dynamics, tactical structures and individual contributions across different phases of play.
+        I’m a football analyst focused on understanding how teams and players behave during a match. My work combines detailed video analysis with supporting data to identify tactical patterns, team structures, and key moments that influence the game.
+        Through match observation, I study aspects such as build-up structures, defensive organisation, player positioning, and transitions. The goal is to break down complex situations into clear insights that coaches, analysts, or scouting departments can use to better understand team performance.
+        My analysis aims to provide practical football insights while continuing to develop and refine analytical methods through ongoing study and match analysis.
     </p>
 </section> 
 
